@@ -1,0 +1,51 @@
+ body {
+    background-color: bisque;
+
+ }
+ 
+ * {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+ }
+ 
+ .box, #no1, #no2, #user-input {
+    font-size: 30px;
+    display: inline-block;
+
+}
+
+.box {
+    padding: 40px;
+    border: solid 3px darkolivegreen;
+    background-color: white;
+}
+
+#user-input {
+    width: 85px;
+
+}
+
+#no1, #no2, #user-input {
+    margin-top: 13px;
+}
+
+.button {
+    position: relative;
+    padding: 6px;
+    margin: 26px 5px;
+    border-radius: 5px;
+    
+
+}
+
+button:hover{
+    background-color: burlywood;
+    color:bisque;
+
+}
+
+#result {
+    color: darkred;
+    font-size: 15px;
+
+}
