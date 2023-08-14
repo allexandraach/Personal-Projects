@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Dashboard Page </title>
+    <link rel="icon" type="image/x-icon" href="images/logo-icon.png">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="typography.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@500&family=Space+Grotesk:wght@500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="gridContainer">
+
+        <header id="headerNav">
+
+            <div><img src="https://i.ibb.co/tCsh7dV/quiz-icon.png" id="logoImg" alt="logo">
+                <h1 id="siteName">Superlatives Quiz</h1>
+            </div>
+
+            <div id="iconItemContainer">
+                <div>
+                    <img class="icon-item" src="https://svgshare.com/i/sSw.svg" alt="theme-icon" height="30em"
+                        onclick="toggleTheme()">
+                    <div class="icon-text" id="themeText">Dark theme</div>
+                </div>
+
+                <div>
+                    <img class="icon-item" id="changeLangBtn" src="https://svgshare.com/i/sRL.svg" alt="language-icon"
+                        height="30em">
+                    <div class="icon-text" id="languageText"> RO </div>
+                </div>
+
+                <div>
+                    <img class="icon-item" src="https://svgshare.com/i/sSJ.svg" id="feedbackIcon" alt="feedback-icon"
+                        height="30em" onclick="showPopup()">
+                    <div class="icon-text" id="feedbackText">Send feedback </div>
+                </div>
+            </div>
+        </header>
+
+        <nav id="sidenavBackgroundImg">
+            <h2 id="userGreet"> Welcome, <span id="displayUsername"></span></h2>
+            <div id="sidenavContainer">
+                <div>
+                    <div class="dropdown">
+                        <button onmouseover="displayDropdownMenu(0)" class="nav-btn-style dropdown-btn"
+                            id="headerNavBtn1"> My Quizzes
+                            <img src="https://svgshare.com/i/sSs.svg" alt="caret-right-icon"
+                                class="caret-right-icon"></button>
+                        <div onmouseleave="hideDropdownMenu(0)" class="nav-btn-style dropdown-container no-display">
+                            <p><button class="nav-btn-style" id="previousQuizzesBtn"> Previous Quizzes</button></p>
+                            <p><button class="nav-btn-style" id="favCategBtn"> My Favourite Categories</button></p>
+                        </div>
+                    </div>
+
+
+                    <div class="dropdown">
+                        <button onmouseover="displayDropdownMenu(1)" class="nav-btn-style dropdown-btn"
+                            id="headerNavBtn2"> My Account <img src="https://svgshare.com/i/sSs.svg"
+                                alt="caret-right-icon" class="caret-right-icon"></button>
+
+                        <div onmouseleave="hideDropdownMenu(1)" class="nav-btn-style dropdown-container no-display">
+                            <p><button class="nav-btn-style" id="changeUsernameBtn"> Change username</button></p>
+                            <p><button class="nav-btn-style" id="changePasswordBtn"> Change password</button></p>
+                            <p><button class="nav-btn-style" id="deleteAccountBtn"> Delete account</button></p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+
+                <div>
+                    <button class="nav-btn-style" id="logOutBtn"> Log Out</button>
+                </div>
+            </div>
+        </nav>
+
+
+        <main>
+
+            <div id="playBtnContainer">
+                <button id="playBtn"> I want to play!</button>
+            </div>
+
+            <div class="no-display" id="accountInfoContainer">
+                <!-- change email -->
+                <input type="email" id="current-email" placeholder="Email" />
+                <label for="current-email"></label>
+
+                <input type="email" id="current-email" placeholder="Email" />
+                <label for="new-email"></label>
+
+                <!-- change password -->
+                <input type="password" id="current-password">
+                <label for="current-password"></label>
+
+                <input type="password" id="new-password">
+                <label for="new-password"></label>
+
+                <!-- change username -->
+                <input type="text" id="current-username">
+                <label for="current-username"></label>
+
+                <input type="text" id="new-username">
+                <label for="new-username"></label>
+
+            </div>
+
+
+            <div id="beforeQuizContainer">
+                <div id="userChoicesContainer" class="no-display">
+                    <label for="Difficulty" id="difficultyLevel">Choose your difficulty level:</label>
+                    <select id="difficultyFromUser" required>
+                        <option value="Easy" id="optionEasy"> Easy </option>
+                        <option value="Medium" id="optionMedium"> Medium </option>
+                        <option value="Hard" id="optionHard"> Hard </option>
+                    </select>
+
+                    <br>
+                    <br>
+
+                    <p><label for="Category" id="gameCategory">Choose your category:</label>
+                        <select id="categoryFromUser" required>
+                    </p>
+                    <option value="Humanities" id="categoryHumanities"> Humanities</option>
+                    <option value="Social Sciences" id="categorySocialSciences"> Social Sciences</option>
+                    <option value="Natural Sciences" id="categoryNaturalSciences"> Natural Sciences</option>
+                    </select>
+                </div>
+
+                <div id="startQuizBtnContainer" class="no-display"><button id="startQuizBtn"> Start the quiz!</button>
+                </div>
+            </div>
+
+            <div id="quizContainer" class="no-display">
+
+                <p id="timeText"><span id="countdownDuration"></span></span> <span id="countdown"></span></p>
+
+                <div id="questionWrapper"></div>
+
+            </div>
+
+            <div class="no-display" id="userScoreContainer">
+
+                <img src="https://svgshare.com/i/w5v.svg" alt="congratulations-icon" height="200px">
+
+                <!-- future improvement: change the message based on the scored obtained by the user -->
+
+                <p id="resultText"> Congratulations on finishing the quiz!
+                    Your score is <b><span id="showUserScore"></span></b> out of <b>15</b>. Please refresh the page
+                    to start a new game.
+                </p>
+
+                <!-- <p id="resultText"> Congratulations on finishing the quiz! Your score is: </p>
+
+                <p id="scoreText"><span></span><span id="showUserScore"></span> out of 15</p> -->
+
+                <!-- <p>I want to play again!</p> -->
+
+            </div>
+
+            <div class="no-display" id="findResultBtnContainer">
+                <button id="findResultBtn">Find my result!</button>
+            </div>
+
+            <div id="feedbackFormContainer">
+                <div class="feedback-form">
+                    <button id="closePopupBtn" onclick="hidePopup()"> x </button>
+
+                    <h3 id="feedbackFormTitle">Contact Us</h3>
+
+                    <p id="feedbackFormText"> Got a question? We'd love to hear from you. Send us a message
+                        and we'll respond as soon as possible.</p>
+
+                    <br>
+
+                    <!-- future improvement: to send feedback to database -->
+                    <form action="mailto:achimov_alexandra@yahoo.com" method="post">
+
+                        <label for="text" id="feedbackFormName">Name*</label>
+                        <p><input class="user-input" type="text" required></p>
+
+                        <label for="email" id="feedbackFormEmail">Email address*</label>
+                        <p><input class="user-input" type="email" name="email" id="email" required></p>
+
+                        <label for="textarea" id="feedbackMsg"> Message* </label>
+                        <p><textarea> </textarea></p>
+
+                        <button id="submitFeedbackBtn" type="submit">Send Message</button>
+
+
+                    </form>
+
+                </div>
+
+            </div>
+
+
+            <div class="no-display" id="previousQuizzesContainer">
+                <p>Previous Quizzes Info</p>
+
+            </div>
+
+        </main>
+
+
+        <footer>
+
+            <div class="footer-nav">
+                <a href="#" class="link-item" id="aboutUsBtn">About Us</a>
+                <a href="#" class="link-item" id="termsBtn">Terms and Conditions</a>
+                <a href="#" class="link-item" id="privacyBtn">Privacy Policy</a>
+            </div>
+            <br>
+
+            <p id="copyrightText">Copyright © 2023 Superlatives Quiz All rights reserved.</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

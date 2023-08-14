@@ -1,0 +1,6524 @@
+{
+  "questionsEN": [
+    {
+      "id": 1,
+      "question": "Which was the largest empire ever seen?",
+      "difficulty": "Easy",
+      "category": "Humanities",
+      "domain": "History",
+      "responses": [
+        {
+          "id": 1,
+          "response": "French Empire",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Roman Empire",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "British Empire",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Who was the first president of the United States of America?",
+      "difficulty": "Easy",
+      "category": "Humanities",
+      "domain": "History",
+      "responses": [
+        {
+          "id": 1,
+          "response": "George Washington",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Benjamin Franklin",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Thomas Jefferson",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Who was the first human to step on the Moon?",
+      "difficulty": "Easy",
+      "category": "Humanities",
+      "domain": "History",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Carl Sagan",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Neil Armstrong",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Yuri Gagarin",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What was the name of the first atomic bomb?",
+      "difficulty": "Easy",
+      "category": "Humanities",
+      "domain": "History",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Fat Man",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Little Boy",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Big Kid",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Which was the first democratic state in the world?",
+      "difficulty": "Easy",
+      "category": "Humanities",
+      "domain": "History",
+      "responses": [
+        {
+          "id": 1,
+          "response": "France",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "United States of America",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Athens",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Who is the most famous philosopher of all times?",
+      "difficulty": "Easy",
+      "category": "Humanities",
+      "domain": "Philosophy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Socrates",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Sun Tzu",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Aristotle",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Who is considered the father of Nihilism?",
+      "difficulty": "Easy",
+      "category": "Humanities",
+      "domain": "Philosophy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Friedrich Wilhelm Nietzsche",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Albert Camus",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Jacques Derrida",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Who is the most influential Chinese philosopher of all times?",
+      "difficulty": "Easy",
+      "category": "Humanities",
+      "domain": "Philosophy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Sun Tzu",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Confucius",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Lao Tzu",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Who is considered to be the father of Existentialism?",
+      "difficulty": "Easy",
+      "category": "Humanities",
+      "domain": "Philosophy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Karl Jaspers",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Simone de Beauvoir",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Søren Kierkegaard",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Who is the most influential Ancient Indian philosopher?",
+      "difficulty": "Easy",
+      "category": "Humanities",
+      "domain": "Philosophy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Śāriputra",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Pingala",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Gautama Buddha",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What is the most read book in the world?",
+      "difficulty": "Easy",
+      "category": "Humanities",
+      "domain": "Literature",
+      "responses": [
+        {
+          "id": 1,
+          "response": "White Fang",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Romeo and Juliet",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "the Bible",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Who is the most famous author of all times?",
+      "difficulty": "Easy",
+      "category": "Humanities",
+      "domain": "Literature",
+      "responses": [
+        {
+          "id": 1,
+          "response": "William Shakespeare",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Ernest Hemingway",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "J. K. Rowling",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Who is the most popular female writer of all times?",
+      "difficulty": "Easy",
+      "category": "Humanities",
+      "domain": "Literature",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Jane Austen",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Charlotte Brontë",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Mary Shelley",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Who is the most popular contemporary Romanian author?",
+      "difficulty": "Easy",
+      "category": "Humanities",
+      "domain": "Literature",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Adrian Paunescu",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Mircea Cartarescu",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Ion Minulescu",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Who is the best selling novelist of all times?",
+      "difficulty": "Easy",
+      "category": "Humanities",
+      "domain": "Literature",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Arthur Conan Doyle",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Charles Bukowski",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Agatha Christie",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "Who is the father of psychoanalysis?",
+      "difficulty": "Easy",
+      "category": "Social Sciences",
+      "domain": "Psychology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Wilhelm Reich",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Erik Erikson",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Sigmund Freud",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "Who invented The Oedipus complex and Electra Complex respectively?",
+      "difficulty": "Easy",
+      "category": "Social Sciences",
+      "domain": "Psychology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Ivan Pavlov",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "William James",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Sigmund Freud",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "Which is the first written theory on links between personality and health known today?",
+      "difficulty": "Easy",
+      "category": "Social Sciences",
+      "domain": "Psychology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Jungian archetypes",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Attachment Theory",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Four Temperament Theory",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Who is the most famous psychologist ever?",
+      "difficulty": "Easy",
+      "category": "Social Sciences",
+      "domain": "Psychology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Sigmund Freud",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Carl Rogers",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Carl Jung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "What is the most-common mental disorder nowadays?",
+      "difficulty": "Easy",
+      "category": "Social Sciences",
+      "domain": "Psychology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Borderline Personality Disorder",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Bipolar Disorder",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Anxiety",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "question": "Which country has the largest population in the world?",
+      "difficulty": "Easy",
+      "category": "Social Sciences",
+      "domain": "Geography",
+      "responses": [
+        {
+          "id": 1,
+          "response": "China",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "United States",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "India",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "question": "Which city is the biggest metropolis in the world?",
+      "difficulty": "Easy",
+      "category": "Social Sciences",
+      "domain": "Geography",
+      "responses": [
+        {
+          "id": 1,
+          "response": "New York",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Tokyo",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "London",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "question": "What is the name of the largest country in the world?",
+      "difficulty": "Easy",
+      "category": "Social Sciences",
+      "domain": "Geography",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Russia",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "China",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Mongolia",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "question": "What is the smallest capital city in Europe?",
+      "difficulty": "Easy",
+      "category": "Social Sciences",
+      "domain": "Geography",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Valletta",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "San Marino",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Tirana",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "question": "What is the name of the smallest country in the world?",
+      "difficulty": "Easy",
+      "category": "Social Sciences",
+      "domain": "Geography",
+      "responses": [
+        {
+          "id": 1,
+          "response": "San Marino",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Liechtenstein",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Vatican City",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "question": "Which is the most traded currency in the world?",
+      "difficulty": "Easy",
+      "category": "Social Sciences",
+      "domain": "Economics",
+      "responses": [
+        {
+          "id": 1,
+          "response": "US Dollar",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Japanese Yen",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Chinese Yuan",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "question": "Which country exports the most?",
+      "difficulty": "Easy",
+      "category": "Social Sciences",
+      "domain": "Economics",
+      "responses": [
+        {
+          "id": 1,
+          "response": "United States of America",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "China",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Germany",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "question": "Which country has the largest economy in Europe?",
+      "difficulty": "Easy",
+      "category": "Social Sciences",
+      "domain": "Economics",
+      "responses": [
+        {
+          "id": 1,
+          "response": "United Kingdom",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Germany",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "France",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "question": "What is the name of the wealthiest city in the world?",
+      "difficulty": "Easy",
+      "category": "Social Sciences",
+      "domain": "Economics",
+      "responses": [
+        {
+          "id": 1,
+          "response": "New York",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Tokyo",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "London",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "question": "Which country imports the most?",
+      "difficulty": "Easy",
+      "category": "Social Sciences",
+      "domain": "Economics",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Germany",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "China",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "United States of America",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "question": "What is the name of the highest mountains in the world?",
+      "difficulty": "Easy",
+      "category": "Natural Sciences",
+      "domain": "Geology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Hindu Kush",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Kilimanjaro",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Himalayas",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "question": "Which is the smallest continent in the world?",
+      "difficulty": "Easy",
+      "category": "Natural Sciences",
+      "domain": "Geology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Australia",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Oceania",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Asia",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "question": "Which is the largest ocean basin in the world?",
+      "difficulty": "Easy",
+      "category": "Natural Sciences",
+      "domain": "Geology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Indian Ocean",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Atlantic Ocean",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Pacific Ocean",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "question": "Which is the largest continent on Earth?",
+      "difficulty": "Easy",
+      "category": "Natural Sciences",
+      "domain": "Geology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "America",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Asia",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Africa",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "question": "What is the name of the deepest oceanic trench on Earth?",
+      "difficulty": "Easy",
+      "category": "Natural Sciences",
+      "domain": "Geology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "South Sandwich",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Puerto Rico",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Mariana",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "question": "What is the name of the first modern humans?",
+      "difficulty": "Easy",
+      "category": "Natural Sciences",
+      "domain": "Biology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Homo Neanderthalensis",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Homo Erectus",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Homo Sapiens",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "question": "Which is the biggest animal on Earth?",
+      "difficulty": "Easy",
+      "category": "Natural Sciences",
+      "domain": "Biology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Elephant",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Blue Whales",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Cachalot",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "question": "Which animal is considered the laziest animal in the world?",
+      "difficulty": "Easy",
+      "category": "Natural Sciences",
+      "domain": "Biology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Sloth",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Panda Bear",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Koala Bear",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "question": "Which is the smartest animal in the ocean?",
+      "difficulty": "Easy",
+      "category": "Natural Sciences",
+      "domain": "Biology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Sea Otter",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Delphin",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Killer Whale",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "question": "Which is the fastest animal in the world?",
+      "difficulty": "Easy",
+      "category": "Natural Sciences",
+      "domain": "Biology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Hyena",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Leopard",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Cheetah",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "question": "Which is the largest planet in our solar system?",
+      "difficulty": "Easy",
+      "category": "Natural Sciences",
+      "domain": "Astronomy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Neptune",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Jupiter",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Uranus",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "question": "Which is the coldest planet from our solar system?",
+      "difficulty": "Easy",
+      "category": "Natural Sciences",
+      "domain": "Astronomy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Neptune",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Jupiter",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Uranus",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "question": "Which is the fastest thing in the Universe?",
+      "difficulty": "Easy",
+      "category": "Natural Sciences",
+      "domain": "Astronomy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Light",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Sound",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Electricity",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "question": "What planet from our solar system is most similar to Earth?",
+      "difficulty": "Easy",
+      "category": "Natural Sciences",
+      "domain": "Astronomy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Mars",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Venus",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Mercury",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "question": "Which is the hottest planet in our solar system?",
+      "difficulty": "Easy",
+      "category": "Natural Sciences",
+      "domain": "Astronomy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Mars",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Venus",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Mercury",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "question": "Which is the oldest continuous dynasty in the world?",
+      "difficulty": "Medium",
+      "category": "Humanities",
+      "domain": "History",
+      "responses": [
+        {
+          "id": 1,
+          "response": "the Imperial House of Japan (Yamato Dynasty)",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Chola Dynasty",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Qin Dynasty",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "question": "Who was the first man to circumnavigate the world?",
+      "difficulty": "Medium",
+      "category": "Humanities",
+      "domain": "History",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Christopher Columbus",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Fernando Magellan",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Marco Polo",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "question": "Which country in the world was the first to give women the right to vote?",
+      "difficulty": "Medium",
+      "category": "Humanities",
+      "domain": "History",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Australia",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "New Zealand",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Russia",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "question": "Where did the first civilization appear?",
+      "difficulty": "Medium",
+      "category": "Humanities",
+      "domain": "History",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Scandinavia",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Egypt",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Mesopotamia",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "question": "What is the oldest monument in the world?",
+      "difficulty": "Medium",
+      "category": "Humanities",
+      "domain": "History",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Göbekli Tepe",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Stonehenge",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Great Pyramid of Giza",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "question": "Who was one of the foremost thinkers of the Enlightenment?",
+      "difficulty": "Medium",
+      "category": "Humanities",
+      "domain": "Philosophy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Montesquieu",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Albert Camus",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Francis Bacon",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "question": "Who is considered to be the first female philosopher?",
+      "difficulty": "Medium",
+      "category": "Humanities",
+      "domain": "Philosophy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Hypatia of Alexandria",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Mary Wollstonecraft",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Simone de Beauvoir",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "question": "Who is known as the father of modern philosophy?",
+      "difficulty": "Medium",
+      "category": "Humanities",
+      "domain": "Philosophy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Blaise Pascal",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "René Descartes",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Immanuel Kant",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "question": "Who was the greatest Eastern philosopher?",
+      "difficulty": "Medium",
+      "category": "Humanities",
+      "domain": "Philosophy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Lao Tzu",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Sun Tzu",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Confucius",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "question": "Who is a notoriously difficult philosopher to understand?",
+      "difficulty": "Medium",
+      "category": "Humanities",
+      "domain": "Philosophy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Georg Wilhelm Friedrich Hegel",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Martin Heidegger",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Friedrich Wilhelm Nietzsche",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "question": "Who is the most important Russian poet?",
+      "difficulty": "Medium",
+      "category": "Humanities",
+      "domain": "Literature",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Aleksandr Pușkin",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Ivan Turgenez",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Anton Chekhov",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "question": "Which is the longest novel in the world?",
+      "difficulty": "Medium",
+      "category": "Humanities",
+      "domain": "Literature",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Karamazov Brothers",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Remembrance of Things Past",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "The Tale of Genji",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "question": "Who is the most popular French writer?",
+      "difficulty": "Medium",
+      "category": "Humanities",
+      "domain": "Literature",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Emile Zola",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Victor Hugo",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Gustave Flaubert",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "question": "Which is the most famous fictional character in the world?",
+      "difficulty": "Medium",
+      "category": "Humanities",
+      "domain": "Literature",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Harry Potter",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Robin Hood",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Sherlock Holmes",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "question": "What is the name of the first book ever written?",
+      "difficulty": "Medium",
+      "category": "Humanities",
+      "domain": "Literature",
+      "responses": [
+        {
+          "id": 1,
+          "response": "The Quran",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "The Bible",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "The Epic of Gilgamesh",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "question": "Which is the most common personality disorder?",
+      "difficulty": "Medium",
+      "category": "Social Sciences",
+      "domain": "Psychology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Borderline Personality Disorder",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Narcissistic Personality Disorder",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Obsessive-Compulsive personality disorder",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "question": "Which is the most common mental disorder in the world?",
+      "difficulty": "Medium",
+      "category": "Social Sciences",
+      "domain": "Psychology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Anxiety",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Depression",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Paranoia",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "question": "Which is the most powerful emotion we feel?",
+      "difficulty": "Medium",
+      "category": "Social Sciences",
+      "domain": "Psychology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Love",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Fear",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Anger",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "question": "Which is the most serious mental illness?",
+      "difficulty": "Medium",
+      "category": "Social Sciences",
+      "domain": "Psychology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Bipolar Disorder",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Schizophrenia",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Dissociative Personality Disorder",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "question": "What is the most uncommon mental disorder?",
+      "difficulty": "Medium",
+      "category": "Social Sciences",
+      "domain": "Psychology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Dissociative Identity Disorder",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Schizophrenia",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Antisocial Personality Disorder",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "question": "Which is the city that has the highest population density in the world?",
+      "difficulty": "Medium",
+      "category": "Social Sciences",
+      "domain": "Geography",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Manila",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Amsterdam",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Bern",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "question": "Which was the first language in the world?",
+      "difficulty": "Medium",
+      "category": "Social Sciences",
+      "domain": "Geography",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Egyptian (hieroglyphs)",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Sanskrit",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Arabic",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "question": "Which country is the most religious country in Europe?",
+      "difficulty": "Medium",
+      "category": "Social Sciences",
+      "domain": "Geography",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Greece",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Romania",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Malta",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "question": "Which is the most spoken language in the world?",
+      "difficulty": "Medium",
+      "category": "Social Sciences",
+      "domain": "Geography",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Arabic",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Chinese",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "English",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "question": "Which is the largest religion in the world?",
+      "difficulty": "Medium",
+      "category": "Social Sciences",
+      "domain": "Geography",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Islam",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Christianity",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Judaism",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "question": "Which is the oldest active volcano on Earth?",
+      "difficulty": "Medium",
+      "category": "Natural Sciences",
+      "domain": "Geology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Etna",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Vezuvius",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Jackson",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "question": "Which sea has highest salinity rate?",
+      "difficulty": "Medium",
+      "category": "Natural Sciences",
+      "domain": "Geology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Red Sea",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Dead Sea",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Black Sea",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "question": "Which is the name of the driest desert on Earth?",
+      "difficulty": "Medium",
+      "category": "Natural Sciences",
+      "domain": "Geology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Sahara",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Atacama",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Gobi",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "question": "What is the name of the largest lake in the world?",
+      "difficulty": "Medium",
+      "category": "Natural Sciences",
+      "domain": "Geology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Lake Superior",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Lake Baikal",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Caspian Sea",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "question": "Which is the toughest material on Earth?",
+      "difficulty": "Medium",
+      "category": "Natural Sciences",
+      "domain": "Geology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Tungsten Carbide",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Titanium",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Diamond",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "question": "Which country invented paper money?",
+      "difficulty": "Medium",
+      "category": "Social Sciences",
+      "domain": "Economics",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Mesopotamia",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "India",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "China",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "question": "Who is considered to be the father of economics?",
+      "difficulty": "Medium",
+      "category": "Social Sciences",
+      "domain": "Economics",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Adam Smith",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "John Stuart Mill",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "John Maynard Keynes",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "question": "Which is the name of the first capitalist country in the world?",
+      "difficulty": "Medium",
+      "category": "Social Sciences",
+      "domain": "Economics",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Great Britain",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "United States of America",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Germany",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "question": "Which country is the richest in the world?",
+      "difficulty": "Medium",
+      "category": "Social Sciences",
+      "domain": "Economics",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Switzerland",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Luxembourg",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Singapore",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "question": "Which is the most socialist country in the world?",
+      "difficulty": "Medium",
+      "category": "Social Sciences",
+      "domain": "Economics",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Russia",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "China",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Sweden",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "question": "Which is the earliest form of life we know of?",
+      "difficulty": "Medium",
+      "category": "Natural Sciences",
+      "domain": "Biology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Protozoa",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Bacteria",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Prokaryotes",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "question": "Which is the longest bone in the human body?",
+      "difficulty": "Medium",
+      "category": "Natural Sciences",
+      "domain": "Biology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Femur",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Tibia",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Fibula",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "question": "Which animal is the longest living animal?",
+      "difficulty": "Medium",
+      "category": "Natural Sciences",
+      "domain": "Biology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Bowhead whale",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Sperm whale",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Tortoises",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "question": "Which is the largest organ in the human body?",
+      "difficulty": "Medium",
+      "category": "Natural Sciences",
+      "domain": "Biology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Lungs",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Liver",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Skin",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "question": "Which is the only organ in the human body that can regenerate itself?",
+      "difficulty": "Medium",
+      "category": "Natural Sciences",
+      "domain": "Biology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Stomach",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Liver",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Skin",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "question": "Which is the name of the brightest star in the night sky?",
+      "difficulty": "Medium",
+      "category": "Natural Sciences",
+      "domain": "Astronomy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Canopus",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Venus",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Sirius (Dog Star)",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "question": "Which is the name of the galaxy closest to the Milky Way?",
+      "difficulty": "Medium",
+      "category": "Natural Sciences",
+      "domain": "Astronomy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Large Magellanic Cloud",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Andromeda",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Triangulum Galaxy",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "question": "Which is the name of the fastest planet in our Solar System?",
+      "difficulty": "Medium",
+      "category": "Natural Sciences",
+      "domain": "Astronomy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Mercury",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Venus",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Mars",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "question": "Which is the name of the most mysterious element in the Universe?",
+      "difficulty": "Medium",
+      "category": "Natural Sciences",
+      "domain": "Astronomy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Dark matter",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Black Holes",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Dark energy",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "question": "What is the name of the strongest force in the Universe?",
+      "difficulty": "Medium",
+      "category": "Natural Sciences",
+      "domain": "Astronomy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Nuclear Force",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Gravity",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Electromagnetic Force",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "question": "What was the longest war in history?",
+      "difficulty": "Hard",
+      "category": "Humanities",
+      "domain": "History",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Hundred Years' War",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "the Reconquista",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Thirty Years' War",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "question": "Who is the longest-reigning monarch in history?",
+      "difficulty": "Hard",
+      "category": "Humanities",
+      "domain": "History",
+      "responses": [
+        {
+          "id": 1,
+          "response": "King Louis XIV",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Henry VIII",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Louis XVI",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "question": "What was the deadliest battle in history?",
+      "difficulty": "Hard",
+      "category": "Humanities",
+      "domain": "History",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Battle of Stalingrad",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Battle of Leipzig",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Battle of Cannae",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "question": "Which was the first country to abolish slavery?",
+      "difficulty": "Hard",
+      "category": "Humanities",
+      "domain": "History",
+      "responses": [
+        {
+          "id": 1,
+          "response": "United States of America",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Spain",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Haiti (then Saint-Domingue)",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "question": "Which was the first country to legalize abortion?",
+      "difficulty": "Hard",
+      "category": "Humanities",
+      "domain": "History",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Poland",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Mexico",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Soviet Union",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "question": "Who is considered the father of skepticism?",
+      "difficulty": "Hard",
+      "category": "Humanities",
+      "domain": "Philosophy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Pyrrho of Elis",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Agrippa",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Timon of Athens",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "question": "Which branch of philosophy is the hardest to grasp?",
+      "difficulty": "Hard",
+      "category": "Humanities",
+      "domain": "Philosophy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Epistemology",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Axiology",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Ontology",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "question": "Which discipline is considered to be the first philosophy?",
+      "difficulty": "Hard",
+      "category": "Humanities",
+      "domain": "Philosophy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Epistemology",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Axiology",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Metaphysics",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "question": "Who is considered to be the first Western philosopher?",
+      "difficulty": "Hard",
+      "category": "Humanities",
+      "domain": "Philosophy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Thales of Miletus",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Aristotle",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Socrates",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "question": "Which is the oldest Eastern philosophy?",
+      "difficulty": "Hard",
+      "category": "Humanities",
+      "domain": "Philosophy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Confucianism",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Shintoism",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Hinduism",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "question": "Who was the first Japanese author who was awarded the Nobel Prize for Literature?",
+      "difficulty": "Hard",
+      "category": "Humanities",
+      "domain": "Literature",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Kazuo Ishiguro",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Kenzaburō Ōe",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Yasunari Kawabata",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "question": "Which was the name of the first book ever printed?",
+      "difficulty": "Hard",
+      "category": "Humanities",
+      "domain": "Literature",
+      "responses": [
+        {
+          "id": 1,
+          "response": "The Recuyell of the Historyes of Troye",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "The Diamond Sutra",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "The Gutenberg Bible",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "question": "What is the name of the most forbidden book in the world?",
+      "difficulty": "Hard",
+      "category": "Humanities",
+      "domain": "Literature",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Animal Farm",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Lolita",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Ulysses",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "question": "Who is considered the father of modern theatre?",
+      "difficulty": "Hard",
+      "category": "Humanities",
+      "domain": "Literature",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Anton Chekhov",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Henrik Ibsen",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Nikolai Gogol",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "question": "What is the name of the longest poem in the world?",
+      "difficulty": "Hard",
+      "category": "Humanities",
+      "domain": "Literature",
+      "responses": [
+        {
+          "id": 1,
+          "response": "My Blah Story",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Beowulf",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "the Mahabharata",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "question": "Who was the first person to be referred to as a psychologist?",
+      "difficulty": "Hard",
+      "category": "Social Sciences",
+      "domain": "Psychology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Sigmund Freud",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Wilhelm Wundt",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Ivan Pavlov",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "question": "Who was the first attachment theorist?",
+      "difficulty": "Hard",
+      "category": "Social Sciences",
+      "domain": "Psychology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "John Bowlby",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "M. S. Ainsworth",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Jean Piaget",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "question": "Who is the father of analytical psychology?",
+      "difficulty": "Hard",
+      "category": "Social Sciences",
+      "domain": "Psychology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "John Watson",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Carl Gustav Jung",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Carl Rogers",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "question": "What is the name of the first female psychologist?",
+      "difficulty": "Hard",
+      "category": "Social Sciences",
+      "domain": "Psychology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Mary Ainsworth",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Margaret Floy Washburn",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Anna Freud",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "question": "Who is the father of humanistic psychology?",
+      "difficulty": "Hard",
+      "category": "Social Sciences",
+      "domain": "Psychology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Abraham H. Maslow",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Margaret Floy Washburn",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Carl Rogers",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "question": "Which is the country that has the largest Muslim population in the world?",
+      "difficulty": "Hard",
+      "category": "Social Sciences",
+      "domain": "Geography",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Saudi Arabia",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Bangladesh",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Indonesia",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "question": "Which is the capital situated at the highest attitude in the world?",
+      "difficulty": "Hard",
+      "category": "Social Sciences",
+      "domain": "Geography",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Quito",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "La Paz",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Damascus",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "question": "Which is the oldest capital in the world?",
+      "difficulty": "Hard",
+      "category": "Social Sciences",
+      "domain": "Geography",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Beijing",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Athens",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Damascus",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "question": "Which is the most atheist country in the world?",
+      "difficulty": "Hard",
+      "category": "Social Sciences",
+      "domain": "Geography",
+      "responses": [
+        {
+          "id": 1,
+          "response": "China",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Japan",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Sweden",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "question": "Which is the most culturally diverse country in the world?",
+      "difficulty": "Hard",
+      "category": "Social Sciences",
+      "domain": "Geography",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Uganda",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Papua New Guinea",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Tanzania",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "question": "Where did the deadliest earthquake ever recorded happen?",
+      "difficulty": "Hard",
+      "category": "Natural Sciences",
+      "domain": "Geology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "China",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Chile",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Haiti",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "question": "Which is the name of the largest desert in the world?",
+      "difficulty": "Hard",
+      "category": "Natural Sciences",
+      "domain": "Geology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Arctic Desert",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Sahara Desert",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Antarctic Desert",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "question": "Which is the name of Earth's farthest point from land?",
+      "difficulty": "Hard",
+      "category": "Natural Sciences",
+      "domain": "Geology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Chimborazo",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Cape Horn",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Point Nemo",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "question": "What is the name of the most expensive material on Earth?",
+      "difficulty": "Hard",
+      "category": "Natural Sciences",
+      "domain": "Geology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Diamond",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Antimatter",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Platinium",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "question": "What is the name of the oldest mountain range on Earth?",
+      "difficulty": "Hard",
+      "category": "Natural Sciences",
+      "domain": "Geology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Barberton Greenstone Belt",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Antimatter",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Hamersley Range",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "question": "Which country invented what is considered the first form of currency?",
+      "difficulty": "Hard",
+      "category": "Social Sciences",
+      "domain": "Economics",
+      "responses": [
+        {
+          "id": 1,
+          "response": "China",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Greece",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Mesopotamia",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "question": "What is the name of the oldest bank in the world?",
+      "difficulty": "Hard",
+      "category": "Social Sciences",
+      "domain": "Economics",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Berenberg Bank",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Monte Dei Paschi di Siena Bank",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "The Washington Trust Company",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "question": "Which is the strongest currency in the world?",
+      "difficulty": "Hard",
+      "category": "Social Sciences",
+      "domain": "Economics",
+      "responses": [
+        {
+          "id": 1,
+          "response": "American Dollar",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "British Pound",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Kuwaiti Dinar",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "question": "Which is the poorest country in the world?",
+      "difficulty": "Hard",
+      "category": "Social Sciences",
+      "domain": "Economics",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Somalia",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Burundi",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Mozambique",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "question": "Which was the biggest economic crash in history?",
+      "difficulty": "Hard",
+      "category": "Social Sciences",
+      "domain": "Economics",
+      "responses": [
+        {
+          "id": 1,
+          "response": "The Great Depression",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "The Global Financial Crisis of 2008",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "The Credit Crisis of 1772",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "question": "Which is the most long-lived human species?",
+      "difficulty": "Hard",
+      "category": "Natural Sciences",
+      "domain": "Biology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Home Sapiens",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Homo Neanderthalensis",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Homo Erectus",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "question": "Which is the first organ to develop in the fetus?",
+      "difficulty": "Hard",
+      "category": "Natural Sciences",
+      "domain": "Biology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "the heart",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "the lungs",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "the liver",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "question": "Which organ in the human body uses the most glucose?",
+      "difficulty": "Hard",
+      "category": "Natural Sciences",
+      "domain": "Biology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "the brain",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "the lungs",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "the liver",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "question": "Which animal is the most dangerous?",
+      "difficulty": "Hard",
+      "category": "Natural Sciences",
+      "domain": "Biology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Snake",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Mosquito",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Bear",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "question": "Which organ in the humany body uses the most oxygen?",
+      "difficulty": "Hard",
+      "category": "Natural Sciences",
+      "domain": "Biology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "the lungs",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "the heart",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "the brain",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "question": "Which is the name of the biggest star in Milky Way?",
+      "difficulty": "Hard",
+      "category": "Natural Sciences",
+      "domain": "Astronomy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "RW Cephei",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "UY Scuti",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "VY Canis Majoris",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "question": "Which planet is the oldest in our Solar System?",
+      "difficulty": "Hard",
+      "category": "Natural Sciences",
+      "domain": "Astronomy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Jupiter",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Mars",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Mercury",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "question": "What is the name of the oldest element in the Universe?",
+      "difficulty": "Hard",
+      "category": "Natural Sciences",
+      "domain": "Astronomy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Helium",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Hydrogen",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Antimatter",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "question": "What is the name of the most massive structure in the Universe (to date)?",
+      "difficulty": "Hard",
+      "category": "Natural Sciences",
+      "domain": "Astronomy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "The Giant Arc",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Hercules-Corona Borealis Great Wall",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Giant GRB Ring",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "question": "What is the name of the oldest star in the Universe?",
+      "difficulty": "Hard",
+      "category": "Natural Sciences",
+      "domain": "Astronomy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Methuselah",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Sneden",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Caffau",
+          "isCorrect": false
+        }
+      ]
+    }
+  ],
+  "questionsRO": [
+    {
+      "id": 1,
+      "question": "Care a fost cel mai mare imperiu din lume?",
+      "difficulty": "Easy",
+      "category": "Humanities",
+      "domain": "History",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Imperiul Francez",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Imperiul Roman",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Imperiul Britanic",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Cine a fost primul președinte al Staletor Unite ale Americii?",
+      "difficulty": "Easy",
+      "category": "Humanities",
+      "domain": "History",
+      "responses": [
+        {
+          "id": 1,
+          "response": "George Washington",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Benjamin Franklin",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Thomas Jefferson",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Cine a fost primul om care a pășit pe Lună?",
+      "difficulty": "Easy",
+      "category": "Humanities",
+      "domain": "History",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Carl Sagan",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Neil Armstrong",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Yuri Gagarin",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Cum s-a numit prima bomba atomică lansată în Al Doilea Război Mondial?",
+      "difficulty": "Easy",
+      "category": "Humanities",
+      "domain": "History",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Fat Man",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Little Boy",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Big Kid",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Unde a fost introdusă și aplicată pentru prima dată ideea de societate democratică",
+      "difficulty": "Easy",
+      "category": "Humanities",
+      "domain": "History",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Franța",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Statele Unite Ale Americii",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Atena",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Cine a fost cel mai renumit filozof din istorie?",
+      "difficulty": "Easy",
+      "category": "Humanities",
+      "domain": "Philosophy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Socrates",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Sun Tzu",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Aristotle",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Ce filozof este considerat părintele Nihilismului?",
+      "difficulty": "Easy",
+      "category": "Humanities",
+      "domain": "Philosophy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Friedrich Wilhelm Nietzsche",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Albert Camus",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Jacques Derrida",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Cine este cel mai cunoscut filosof chinez din toate timpurile?",
+      "difficulty": "Easy",
+      "category": "Humanities",
+      "domain": "Philosophy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Sun Tzu",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Confucius",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Lao Tzu",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Ce filozof este considerat părintele existențialismului?",
+      "difficulty": "Easy",
+      "category": "Humanities",
+      "domain": "Philosophy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Karl Jaspers",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Simone de Beauvoir",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Søren Kierkegaard",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Cine este cel mai renumit filosof indian din perioada antică?",
+      "difficulty": "Easy",
+      "category": "Humanities",
+      "domain": "Philosophy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Śāriputra",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Pingala",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Gautama Buddha",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Care este cea mai citită carte din lume?",
+      "difficulty": "Easy",
+      "category": "Humanities",
+      "domain": "Literature",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Colț Alb",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Romeo și Julieta",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Biblia",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Cine este cel mai faimos autor din toate timpurile?",
+      "difficulty": "Easy",
+      "category": "Humanities",
+      "domain": "Literature",
+      "responses": [
+        {
+          "id": 1,
+          "response": "William Shakespeare",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Ernest Hemingway",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "J. K. Rowling",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Cine este cea mai populară scriitoare a tuturor timpurilor?",
+      "difficulty": "Easy",
+      "category": "Humanities",
+      "domain": "Literature",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Jane Austen",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Charlotte Brontë",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Mary Shelley",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Cine este cel mai cunoscut autor român contemporan?",
+      "difficulty": "Easy",
+      "category": "Humanities",
+      "domain": "Literature",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Adrian Păunescu",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Mircea Cărtărescu",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Ion Minulescu",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Ce scriitor a vândut cel mai mare număr de exemplare în istorie?",
+      "difficulty": "Easy",
+      "category": "Humanities",
+      "domain": "Literature",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Arthur Conan Doyle",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Charles Bukowski",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Agatha Christie",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "Cine este părintele psihanalizei?",
+      "difficulty": "Easy",
+      "category": "Social Sciences",
+      "domain": "Psychology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Wilhelm Reich",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Erik Erikson",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Sigmund Freud",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "Cine a inventat Complexul Oedip și, respectiv, Complexul Electra?",
+      "difficulty": "Easy",
+      "category": "Social Sciences",
+      "domain": "Psychology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Ivan Pavlov",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "William James",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Sigmund Freud",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "Care este prima teorie scrisă despre corelația dintre personalitate și sănătate?",
+      "difficulty": "Easy",
+      "category": "Social Sciences",
+      "domain": "Psychology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Arhetipurile lui Jung",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Teoria atașamentului",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Teoria celor patru temperamente",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Cine este cel mai faimos psiholog?",
+      "difficulty": "Easy",
+      "category": "Social Sciences",
+      "domain": "Psychology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Sigmund Freud",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Carl Rogers",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Carl Jung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "Care este cea mai frecvent întâlnită tulburare mentală?",
+      "difficulty": "Easy",
+      "category": "Social Sciences",
+      "domain": "Psychology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Tulburare de personalitate borderliner",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Tulburare bipolarar",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Anxietate ",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "question": "Ce țară are cea mai mare populație din lume?",
+      "difficulty": "Easy",
+      "category": "Social Sciences",
+      "domain": "Geography",
+      "responses": [
+        {
+          "id": 1,
+          "response": "China",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Satele Unitel ale Americii",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "India",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "question": "Ce oraș este cea mai mare metropolă din lume?",
+      "difficulty": "Easy",
+      "category": "Social Sciences",
+      "domain": "Geography",
+      "responses": [
+        {
+          "id": 1,
+          "response": "New York",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Tokyo",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Londra",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "question": "Cum țară are cea mai mare suprafață din lume?",
+      "difficulty": "Easy",
+      "category": "Social Sciences",
+      "domain": "Geography",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Rusia",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "China",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Mongolia",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "question": "Care este cea mai mică capitală din Europa?",
+      "difficulty": "Easy",
+      "category": "Social Sciences",
+      "domain": "Geography",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Valletta",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "San Marino",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Tirana",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "question": "Selectează cea mai mică țară din lume!",
+      "difficulty": "Easy",
+      "category": "Social Sciences",
+      "domain": "Geography",
+      "responses": [
+        {
+          "id": 1,
+          "response": "San Marino",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Liechtenstein",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Vatican City",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "question": "Selectează cea mai tranzacționată monedă din lume.",
+      "difficulty": "Easy",
+      "category": "Social Sciences",
+      "domain": "Economics",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Dolarul american",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Yuanul chinezesc",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Yenul japonez",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "question": "Selectează țara care detine cel mai mare procent de export din lume!",
+      "difficulty": "Easy",
+      "category": "Social Sciences",
+      "domain": "Economics",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Statele Unite ale Americii",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "China",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Germania",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "question": "Ce țara este catalogată ca “motorul” Europei?",
+      "difficulty": "Easy",
+      "category": "Social Sciences",
+      "domain": "Economics",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Regatul Unit",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Germania",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Franța",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "question": "Selectează cel mai bogat oraș din lume!",
+      "difficulty": "Easy",
+      "category": "Social Sciences",
+      "domain": "Economics",
+      "responses": [
+        {
+          "id": 1,
+          "response": "New York",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Tokio",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Londra",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "question": "Selectează țara ce are cel mai mare procent de import din lume!",
+      "difficulty": "Easy",
+      "category": "Social Sciences",
+      "domain": "Economics",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Germania",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "China",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Statele Unite ale Americii",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "question": "Cum se numesc cei mai înalți munți din lume?",
+      "difficulty": "Easy",
+      "category": "Social Sciences",
+      "domain": "Geology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Hindu Kush",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Kilimanjaro",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Himalaya",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "question": "Care este cel mai mic continent din lume?",
+      "difficulty": "Easy",
+      "category": "Social Sciences",
+      "domain": "Geology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Australia",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Oceania",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Asia",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "question": "Selectează cel mai mare bazin oceanic din lume!",
+      "difficulty": "Easy",
+      "category": "Social Sciences",
+      "domain": "Geology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Oceanul Indian",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Oceanul Atlantic",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Oceanul Pacific",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "question": "Selectează cel mai mare continent de pe Terra!",
+      "difficulty": "Easy",
+      "category": "Social Sciences",
+      "domain": "Geology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "America",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Asia",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Africa",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "question": "Cum se numește cel mai adânc rift oceanic de pe pământ?",
+      "difficulty": "Easy",
+      "category": "Social Sciences",
+      "domain": "Geology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "South Sandwich",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Puerto Rico",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Mariana",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "question": "Cum se numește specia de oameni moderni?",
+      "difficulty": "Easy",
+      "category": "Natural Sciences",
+      "domain": "Biology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Homo Neanderthalensis",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Homo Erectus",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Homo Sapiens",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "question": "Care este cel mai mare animal de pe Pământ?",
+      "difficulty": "Easy",
+      "category": "Natural Sciences",
+      "domain": "Biology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Elefantul",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Balenele albastre",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Caşalotul",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "question": "Ce animal este considerat cel mai leneș animal din lume?",
+      "difficulty": "Easy",
+      "category": "Natural Sciences",
+      "domain": "Biology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Leneșul",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Ursul Panda",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Ursul Koala",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "question": "Selectează cel mai inteligent animal din ocean!",
+      "difficulty": "Easy",
+      "category": "Natural Sciences",
+      "domain": "Biology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Vidra de mare",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Delfinul",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Balena Ucigașă",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "question": "Care este cel mai rapid animal din lume?",
+      "difficulty": "Easy",
+      "category": "Natural Sciences",
+      "domain": "Biology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Hiena",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Leopardul",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Ghepardul",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "question": "Selectează planeta de cea mai mare dimensiune din sistemul nostru solar!",
+      "difficulty": "Easy",
+      "category": "Natural Sciences",
+      "domain": "Astronomy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Neptun",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Jupiter",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Uranus",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "question": "Care este cea mai rece planetă din sistemul nostru solar?",
+      "difficulty": "Easy",
+      "category": "Natural Sciences",
+      "domain": "Astronomy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Neptun",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Jupiter",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Uranus",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "question": "Selectează viteza cu cea mai mare velocitate din Univers!",
+      "difficulty": "Easy",
+      "category": "Natural Sciences",
+      "domain": "Astronomy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Luminii",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Sunetului",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Electrică",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "question": "Ce planetă din sistemul nostru solar seamănă cel mai mult cu Pământul?",
+      "difficulty": "Easy",
+      "category": "Natural Sciences",
+      "domain": "Astronomy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Marte",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Venus",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Mercur",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "question": "Selectează planeta cu cea mai ridicată temperatură din sistemul nostru solar!",
+      "difficulty": "Easy",
+      "category": "Natural Sciences",
+      "domain": "Astronomy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Marte",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Venus",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Mercur",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "question": "Care este cea mai veche dinastie continuă din lume?",
+      "difficulty": "Medium",
+      "category": "Humanities",
+      "domain": "History",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Casa Imperială a Japoniei (Dinastia Yamato)",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Dinastia Chola",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Dinastia Qin",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "question": "Cine a fost prima persoană care a efectuat înconjurul lumii?",
+      "difficulty": "Medium",
+      "category": "Humanities",
+      "domain": "History",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Cristofor Columb",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Fernando Magellan",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Marco Polo",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "question": "Ce țară a acordat pentru prima dată femeilor dreptul la vot?",
+      "difficulty": "Medium",
+      "category": "Humanities",
+      "domain": "History",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Australia",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Noua Zeelandă",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Rusia",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "question": "Unde a apărut prima civilizație?",
+      "difficulty": "Medium",
+      "category": "Humanities",
+      "domain": "History",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Scandinavia",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Egipt",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Mesopotamia",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "question": "Care este cel mai vechi monument din lume?",
+      "difficulty": "Medium",
+      "category": "Humanities",
+      "domain": "History",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Göbekli Tepe",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Stonehenge",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Marea Piramidă din Giza",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "question": "Cine a fost unul dintre cei mai de seamă gânditori ai Iluminismului?",
+      "difficulty": "Medium",
+      "category": "Humanities",
+      "domain": "Philosophy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Montesquieu",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Albert Camus",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Francis Bacon",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "question": "Cine a fost considerat si acceptat ca prim filosof de sex feminin?",
+      "difficulty": "Medium",
+      "category": "Humanities",
+      "domain": "Philosophy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Hypatia din Alexandria",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Mary Wollstonecraft",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Simone de Beauvoir",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "question": "Cine este cunoscut ca părintele filosofiei moderne?",
+      "difficulty": "Medium",
+      "category": "Humanities",
+      "domain": "Philosophy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Blaise Pascal",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "René Descartes",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Immanuel Kant",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "question": "Cine a fost cel mai mare filosof oriental?",
+      "difficulty": "Medium",
+      "category": "Humanities",
+      "domain": "Philosophy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Lao Tzu",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Sun Tzu",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Confucius",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "question": "Cine este cunoscut drept un filosof de greu de înțeles?",
+      "difficulty": "Medium",
+      "category": "Humanities",
+      "domain": "Philosophy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "George Wilhelm Friedrich Hegel",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Martin Heidegger",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Friedrich Wilhelm Nietzsche",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "question": "Cine este considerat cel mai important poet rus?",
+      "difficulty": "Medium",
+      "category": "Humanities",
+      "domain": "Literature",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Aleksandr Pușkin",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Ivan Turgenez",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Anton Chekhov",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "question": "Care este cel mai lung roman din lume?",
+      "difficulty": "Medium",
+      "category": "Humanities",
+      "domain": "Literature",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Frații Karamazov",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "În căutarea timpului pierdut",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Povestea lui Genji",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "question": "Cine este cel mai popular scriitor francez?",
+      "difficulty": "Medium",
+      "category": "Humanities",
+      "domain": "Literature",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Emile Zola",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Victor Hugo",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Gustave Flaubert",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "question": "Cine este cel mai faimos personaj fictiv din lume?",
+      "difficulty": "Medium",
+      "category": "Humanities",
+      "domain": "Literature",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Harry Potter",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Robin Hood",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Sherlock Holmes",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "question": "Care este numele primei cărți scrise?",
+      "difficulty": "Medium",
+      "category": "Humanities",
+      "domain": "Literature",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Coranul",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Biblia",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Epopeea lui Ghilgameș",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "question": "Cum se numește cea mai întâlnită tulburare de personalitate?",
+      "difficulty": "Medium",
+      "category": "Social Sciences",
+      "domain": "Psychology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Borderline",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Narcisistă",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Obsesiv-compulsivă",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "question": "Care este cea mai întâlnită tulburare mentală din lume?",
+      "difficulty": "Medium",
+      "category": "Social Sciences",
+      "domain": "Psychology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Anxietatea",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Depresia",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Paranoia",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "question": "Care este cea mai puternică emoție pe care putem simți?",
+      "difficulty": "Medium",
+      "category": "Social Sciences",
+      "domain": "Psychology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Iubirea",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Frica",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Furia",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "question": "Care este cea mai gravă boală psihică?",
+      "difficulty": "Medium",
+      "category": "Social Sciences",
+      "domain": "Psychology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Tulburarea bipolară",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Schizofrenia",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Tulburarea disociativă de personalitate",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "question": "Care este cea mai neobișnuită tulburare mentală?",
+      "difficulty": "Medium",
+      "category": "Social Sciences",
+      "domain": "Psychology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Tulburarea disociativă de identitate",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Schizofrenia",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Tulburarea de personalitate antisocială",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "question": "Care este orașul cu cea mai mare densitate a populației din lume?",
+      "difficulty": "Medium",
+      "category": "Social Sciences",
+      "domain": "Geography",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Manila",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Amsterdam",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Berna",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "question": "Care a fost prima limbă din lume?",
+      "difficulty": "Medium",
+      "category": "Social Sciences",
+      "domain": "Geography",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Egipteană (hieroglife)",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Sanscrită",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Arabă",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "question": "Care este cea mai religioasă țară din Europa?",
+      "difficulty": "Medium",
+      "category": "Social Sciences",
+      "domain": "Geography",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Grecia",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "România",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Malta",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "question": "Care este cea mai vorbită limbă din lume?",
+      "difficulty": "Medium",
+      "category": "Social Sciences",
+      "domain": "Geography",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Araba",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Chineza",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Engleza",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "question": "Care este cea mai răspândită religie din lume?",
+      "difficulty": "Medium",
+      "category": "Social Sciences",
+      "domain": "Geography",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Islamul",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Creştinismul",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Iudaismul",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "question": "Care este cel mai vechi vulcan activ de pe Pământ?",
+      "difficulty": "Medium",
+      "category": "Social Sciences",
+      "domain": "Geology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Etna",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Vezuviu",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Jackson",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "question": "Selectează marea cu cea mai mare rată de salinitate.",
+      "difficulty": "Medium",
+      "category": "Social Sciences",
+      "domain": "Geology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Marea Roșie",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Marea Moartă",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Marea Neagră",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "question": "Cum se numește cel mai uscat deșert de pe Pământ?",
+      "difficulty": "Medium",
+      "category": "Social Sciences",
+      "domain": "Geology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Sahara",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Atacama",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Gobi",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "question": "Selectează cel mai mare lac din lume.",
+      "difficulty": "Medium",
+      "category": "Social Sciences",
+      "domain": "Geology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Lacul Superior",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Lacul Baikal",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Marea Caspică",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "question": "Care este cel mai dur material de pe pământ?",
+      "difficulty": "Medium",
+      "category": "Social Sciences",
+      "domain": "Geology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Carbura de tungsten",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Titanul",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Diamantul",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "question": "Care este țara care a inventat banii de hârtie?",
+      "difficulty": "Medium",
+      "category": "Social Sciences",
+      "domain": "Economics",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Mesopotamia",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "India",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "China",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "question": "Cine este considerat a fi părintele economiei?",
+      "difficulty": "Medium",
+      "category": "Social Sciences",
+      "domain": "Economics",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Adam Smith",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "John Stuart Mill",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "John Maynard Keynes",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "question": "Care este numele primei țări capitaliste din lume?",
+      "difficulty": "Medium",
+      "category": "Social Sciences",
+      "domain": "Economics",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Marea Britanie",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Statele Unite ale Americii",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Germania",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "question": "Care este cea mai bogată țară din lume?",
+      "difficulty": "Medium",
+      "category": "Social Sciences",
+      "domain": "Economics",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Elveţia",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Luxemburg",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Singapore",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "question": "Ce țară are cel mare nivel de socialism implementat?",
+      "difficulty": "Medium",
+      "category": "Social Sciences",
+      "domain": "Economics",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Rusia",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "China",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Suedia",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "question": "Care este cea mai timpurie formă de viață pe care o cunoaștem?",
+      "difficulty": "Medium",
+      "category": "Natural Sciences",
+      "domain": "Biology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Protozoa",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Bacteria",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Procariotă",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "question": "Care este cel mai lung os din corpul uman?",
+      "difficulty": "Medium",
+      "category": "Natural Sciences",
+      "domain": "Biology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Femurul",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Tibia",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Fibula",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "question": "Care este cel mai longeviv animal?",
+      "difficulty": "Medium",
+      "category": "Natural Sciences",
+      "domain": "Biology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Balena bowhead",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Caşalotul",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Broasca Țestoasă",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "question": "Care este cel mai mare organ din corpul uman?",
+      "difficulty": "Medium",
+      "category": "Natural Sciences",
+      "domain": "Biology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Plămânii",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Ficatul",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Pielea",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "question": "Care este singurul organ din corpul uman care se poate regenera singur?",
+      "difficulty": "Medium",
+      "category": "Natural Sciences",
+      "domain": "Biology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Stomacul",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Ficatul",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Pielea",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "question": "Cum se numește cea mai strălucitoare stea?",
+      "difficulty": "Medium",
+      "category": "Natural Sciences",
+      "domain": "Astronomy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Canopus",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Venus",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Sirius (Steaua câinelui)",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "question": "Care este numele galaxiei cele mai apropiate de Calea Lactee?",
+      "difficulty": "Medium",
+      "category": "Natural Sciences",
+      "domain": "Astronomy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Nor Magellanic de dimensiune mare",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Andromeda",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Galaxia triunghiulară",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "question": "Cum se numește cea mai rapidă planetă din sistemul nostru solar?",
+      "difficulty": "Medium",
+      "category": "Natural Sciences",
+      "domain": "Astronomy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Mercur",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Venus",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Marte",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "question": "Care este numele celui mai misterios element din Univers?",
+      "difficulty": "Medium",
+      "category": "Natural Sciences",
+      "domain": "Astronomy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Materia întunecată",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Gaura Neagră",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Energia Întunecată",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "question": "Cum se numește cea mai puternică forță din Univers?",
+      "difficulty": "Medium",
+      "category": "Natural Sciences",
+      "domain": "Astronomy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Forța nucleară",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Gravitația",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Forța electromagnetică",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "question": "Care a fost cel mai lung război din istorie?",
+      "difficulty": "Hard",
+      "category": "Humanities",
+      "domain": "History",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Războiul de o sută de ani",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Reconquista",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Războiul de treizeci de ani",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "question": "Cine este cel mai longeviv monarh din istorie?",
+      "difficulty": "Hard",
+      "category": "Humanities",
+      "domain": "History",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Ludovic al XIV-lea",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Henric al VIII-lea",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Ludovic al XVI-lea",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "question": "Selectează bătălia cunoscută drept cea mai sângeroasă înfruntare din istorie!",
+      "difficulty": "Hard",
+      "category": "Humanities",
+      "domain": "History",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Bătălia de la Stalingrad",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Bătălia de la Leipzig",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Bătălia de la Cannae",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "question": "Care a fost prima țară ce a abolit sclavia?",
+      "difficulty": "Hard",
+      "category": "Humanities",
+      "domain": "History",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Statele Unite ale Americii",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Spania",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Haiti (atunci Saint-Domingue)",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "question": "Care a fost prima țară ce a legalizat avortul?",
+      "difficulty": "Hard",
+      "category": "Humanities",
+      "domain": "History",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Polonia",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Mexic",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Uniunea Sovietică",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "question": "Cine este considerat părintele scepticismului?",
+      "difficulty": "Hard",
+      "category": "Humanities",
+      "domain": "Philosophy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Pyrrho al lui Elis",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Agrippa",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Timon din Atena",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "question": "Care ramură a filosofiei este cel mai greu de înțeles?",
+      "difficulty": "Hard",
+      "category": "Humanities",
+      "domain": "Philosophy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Epistemologia",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Axiologia",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Ontologia",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "question": "Ce disciplină este considerată prima filosofie?",
+      "difficulty": "Hard",
+      "category": "Humanities",
+      "domain": "Philosophy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Epistemologia",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Axiologia",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Metafizica",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "question": "Cine este considerat primul filozof occidental?",
+      "difficulty": "Hard",
+      "category": "Humanities",
+      "domain": "Philosophy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Thales din Milet",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Aristotel",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Socrate",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "question": "Care este cea mai veche filosofie orientală?",
+      "difficulty": "Hard",
+      "category": "Humanities",
+      "domain": "Philosophy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Confucianismul",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Shintoismul",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Hinduismul",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "question": "Cine a fost primul autor japonez care a primit Premiul Nobel pentru Literatură?",
+      "difficulty": "Hard",
+      "category": "Humanities",
+      "domain": "Literature",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Kazuo Ishiguro",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Kenzaburō Ōe",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Yasunari Kawabata",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "question": "Cum s-a numit prima carte tipărită vreodată?",
+      "difficulty": "Hard",
+      "category": "Humanities",
+      "domain": "Literature",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Culegere de povestiri din Troia",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Sutra Diamantului",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Biblia Gutenberg",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "question": "Care este numele celei mai interzise cărți din lume?",
+      "difficulty": "Hard",
+      "category": "Humanities",
+      "domain": "Literature",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Ferma Animalelor",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Lolita",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Ulise",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "question": "Cine este considerat părintele teatrului modern?",
+      "difficulty": "Hard",
+      "category": "Humanities",
+      "domain": "Literature",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Anton Chekhov",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Henrik Ibsen",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Nikolai Gogol",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "question": "Cum se numește cel mai lung poem din lume?",
+      "difficulty": "Hard",
+      "category": "Humanities",
+      "domain": "Literature",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Luceafărul",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Beowulf",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Mahabharata",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "question": "Cine a fost prima persoană care a fost numită psiholog?",
+      "difficulty": "Hard",
+      "category": "Social Sciences",
+      "domain": "Psychology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Sigmund Freud",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Wilhelm Wundt",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Ivan Pavlov",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "question": "Cine a fost primul teoretician al conceptului de atașament?",
+      "difficulty": "Hard",
+      "category": "Social Sciences",
+      "domain": "Psychology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "John Bowlby",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "M. S. Ainsworth",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Jean Piaget",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "question": "Cine este părintele psihologiei analitice?",
+      "difficulty": "Hard",
+      "category": "Social Sciences",
+      "domain": "Psychology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "John Watson",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Carl Gustav Jung",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Carl Rogers",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "question": "Cine este primul filosof de sex feminin?",
+      "difficulty": "Hard",
+      "category": "Social Sciences",
+      "domain": "Psychology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Mary Ainsworth",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Margaret Floy Washburn",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Anna Freud",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "question": "Cine este părintele psihologiei umaniste?",
+      "difficulty": "Hard",
+      "category": "Social Sciences",
+      "domain": "Psychology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Abraham H. Maslow",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Margaret Floy Washburn",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Carl Rogers",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "question": "Care este țara cu cea mai mare populație musulmană din lume?",
+      "difficulty": "Hard",
+      "category": "Social Sciences",
+      "domain": "Geography",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Saudi Arabia",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Bangladesh",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Indonesia",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "question": "Care este capitala situată la cea mai mare altitudine din lume?",
+      "difficulty": "Hard",
+      "category": "Social Sciences",
+      "domain": "Geography",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Quito",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "La Paz",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Damascus",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "question": "Care este cea mai veche capitală din lume?",
+      "difficulty": "Hard",
+      "category": "Social Sciences",
+      "domain": "Geography",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Beijing",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Atena",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Damasc",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "question": "Care este cea mai ate țară din lume?",
+      "difficulty": "Hard",
+      "category": "Social Sciences",
+      "domain": "Geography",
+      "responses": [
+        {
+          "id": 1,
+          "response": "China",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Japonia",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Suedia",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "question": "Care este cea mai diversă țară din lume din punct de vedere cultural?",
+      "difficulty": "Hard",
+      "category": "Social Sciences",
+      "domain": "Geography",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Uganda",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Papua Noua Guinee",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Tanzania",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "question": "Unde a avut loc cel mai mortal cutremur înregistrat vreodată?",
+      "difficulty": "Hard",
+      "category": "Social Sciences",
+      "domain": "Geology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "China",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Chile",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Haiti",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "question": "Care este numele celui mai mare deșert din lume?",
+      "difficulty": "Hard",
+      "category": "Social Sciences",
+      "domain": "Geology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Deșertul Arctic",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Deșertul Sahara",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Deșertul Antarctic",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "question": "Care este numele celui mai îndepărtat punct al Pământului de Terra?",
+      "difficulty": "Hard",
+      "category": "Social Sciences",
+      "domain": "Geology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Chimborazo",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Cape Horn",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Point Nemo",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "question": "Cum Se numește cel mai scump material de pe Terra?",
+      "difficulty": "Hard",
+      "category": "Social Sciences",
+      "domain": "Geology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Diamantul",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Antimateria",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Platina",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "question": "Cum se numește cel mai vechi lanț muntos de pe Terra?",
+      "difficulty": "Hard",
+      "category": "Social Sciences",
+      "domain": "Geology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Barberton Greenstone Belt",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Antimatter",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Hamersley Range",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "question": "Ce țară a inventat ceea ce este considerat prima formă de monedă?",
+      "difficulty": "Hard",
+      "category": "Social Sciences",
+      "domain": "Economics",
+      "responses": [
+        {
+          "id": 1,
+          "response": "China",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Grecia",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Mesopotamia",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "question": "Cum se numește cea mai veche bancă din lume?",
+      "difficulty": "Hard",
+      "category": "Social Sciences",
+      "domain": "Economics",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Berenberg Bank",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Monte Dei Paschi di Siena Bank",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "The Washington Trust Company",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "question": "Care este cea mai puternică monedă din lume?",
+      "difficulty": "Hard",
+      "category": "Social Sciences",
+      "domain": "Economics",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Dolarul american ",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Lira sterlină",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Dinar kuweitian",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "question": "Care este cea mai săracă țară din lume?",
+      "difficulty": "Hard",
+      "category": "Social Sciences",
+      "domain": "Economics",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Somalia",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Burundi",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Mozambique",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "question": "Care a fost cel mai mare crash economic din istorie?",
+      "difficulty": "Hard",
+      "category": "Social Sciences",
+      "domain": "Economics",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Marea Depresiune",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Criza Financiară Globală din 2008",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Criza de credite din 1772",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "question": "Care este cea mai longevivă specie umană?",
+      "difficulty": "Hard",
+      "category": "Natural Sciences",
+      "domain": "Biology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Home Sapiens",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Homo Neanderthalensis",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Homo Erectus",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "question": "Care este primul organ ce de dezvoltă intr-un făt?",
+      "difficulty": "Hard",
+      "category": "Natural Sciences",
+      "domain": "Biology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Inima",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Plămanii",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Ficatul",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "question": "Ce organ din corpul uman folosește cel mai ridicat nivel de glucoză?",
+      "difficulty": "Hard",
+      "category": "Natural Sciences",
+      "domain": "Biology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Creierul",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Plămânii",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Ficatul",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "question": "Selectează cel mai periculos animal!",
+      "difficulty": "Hard",
+      "category": "Natural Sciences",
+      "domain": "Biology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Șarpele",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Țânțarul",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Ursul",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "question": "Ce organ din corpul uman utilizează cea mai mare cantitate de oxigen?",
+      "difficulty": "Hard",
+      "category": "Natural Sciences",
+      "domain": "Biology",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Plămânii",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Inima",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Creierul",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "question": "Selectează cea mai mare stea din Calea Lactee!",
+      "difficulty": "Hard",
+      "category": "Natural Sciences",
+      "domain": "Astronomy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "RW Cephei",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "UY Scuti",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "VY Canis Majoris",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "question": "Care este cea mai veche planetă din sistemul nostru solar?",
+      "difficulty": "Hard",
+      "category": "Natural Sciences",
+      "domain": "Astronomy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Jupiter",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Marte",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Mercur",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "question": "Cum se numește cel mai vechi element din Univers?",
+      "difficulty": "Hard",
+      "category": "Natural Sciences",
+      "domain": "Astronomy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Heliul",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Hidrogenul",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Antimateria",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "question": "Cum se numește cea mai masivă structură din Univers (până în prezent)?",
+      "difficulty": "Hard",
+      "category": "Natural Sciences",
+      "domain": "Astronomy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Arcul Gigant",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "response": "Hercules-Corona Borealis Great Wall",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "response": "Giant GRB Ring",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "question": "Care este numele celei mai bătrâne stele din Univers?",
+      "difficulty": "Hard",
+      "category": "Natural Sciences",
+      "domain": "Astronomy",
+      "responses": [
+        {
+          "id": 1,
+          "response": "Methuselah",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "response": "Sneden",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "response": "Caffau",
+          "isCorrect": false
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "achimov_alexandra@yahoo.com",
+      "username": "alexaach",
+      "password": "password123"
+    },
+    {
+      "id": 2,
+      "email": "test@yahoo.com",
+      "username": "test123",
+      "password": "password123"
+    },
+    {
+      "username": "alexa",
+      "password": "alexa",
+      "email": "aalexa210598@gmail.com",
+      "id": 3
+    },
+    {
+      "username": "ads",
+      "password": "aa",
+      "email": "dasa",
+      "id": 4
+    },
+    {
+      "username": "test",
+      "password": "test",
+      "email": "test",
+      "id": 6
+    },
+    {
+      "username": "lidia",
+      "password": "nor",
+      "email": "manuela_achimov@yahoo.com",
+      "id": 7
+    }
+  ]
+}
