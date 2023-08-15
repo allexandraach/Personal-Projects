@@ -321,12 +321,12 @@
       "responses": [
         {
           "id": 1,
-          "response": "Adrian Paunescu",
+          "response": "Adrian Păunescu",
           "isCorrect": false
         },
         {
           "id": 2,
-          "response": "Mircea Cartarescu",
+          "response": "Mircea Cărtărescu",
           "isCorrect": true
         },
         {
@@ -4036,7 +4036,7 @@
     },
     {
       "id": 34,
-      "question": "Selectează cel mai mare continent de pe Terra!",
+      "question": "Selectează cel mai mare continent.",
       "difficulty": "Easy",
       "category": "Social Sciences",
       "domain": "Geology",
@@ -5956,7 +5956,7 @@
     },
     {
       "id": 114,
-      "question": "Care este cea mai ate țară din lume?",
+      "question": "Care este cea mai atee țară din lume?",
       "difficulty": "Hard",
       "category": "Social Sciences",
       "domain": "Geography",
@@ -6052,7 +6052,7 @@
     },
     {
       "id": 118,
-      "question": "Care este numele celui mai îndepărtat punct al Pământului de Terra?",
+      "question": "Care este numele celui mai îndepărtat punct de pe Pământ?",
       "difficulty": "Hard",
       "category": "Social Sciences",
       "domain": "Geology",
@@ -6064,19 +6064,19 @@
         },
         {
           "id": 2,
-          "response": "Cape Horn",
+          "response": "Capul Horn",
           "isCorrect": false
         },
         {
           "id": 3,
-          "response": "Point Nemo",
+          "response": "Punctul Nemo",
           "isCorrect": true
         }
       ]
     },
     {
       "id": 119,
-      "question": "Cum Se numește cel mai scump material de pe Terra?",
+      "question": "Care este numele celui mai scump material?",
       "difficulty": "Hard",
       "category": "Social Sciences",
       "domain": "Geology",
@@ -6107,24 +6107,24 @@
       "responses": [
         {
           "id": 1,
-          "response": "Barberton Greenstone Belt",
+          "response": "Centura de piatră verde Barberton",
           "isCorrect": true
         },
         {
           "id": 2,
-          "response": "Antimatter",
+          "response": "Kunlun",
           "isCorrect": false
         },
         {
           "id": 3,
-          "response": "Hamersley Range",
+          "response": "Gama Hamersley",
           "isCorrect": false
         }
       ]
     },
     {
       "id": 121,
-      "question": "Ce țară a inventat ceea ce este considerat prima formă de monedă?",
+      "question": "Ce țară a inventat prima formă de monedă?",
       "difficulty": "Hard",
       "category": "Social Sciences",
       "domain": "Economics",
@@ -6155,17 +6155,17 @@
       "responses": [
         {
           "id": 1,
-          "response": "Berenberg Bank",
+          "response": "Banca Berenberg",
           "isCorrect": false
         },
         {
           "id": 2,
-          "response": "Monte Dei Paschi di Siena Bank",
+          "response": "Banca Monte Dei Paschi di Siena",
           "isCorrect": true
         },
         {
           "id": 3,
-          "response": "The Washington Trust Company",
+          "response": "Compania Washington Trust",
           "isCorrect": false
         }
       ]
@@ -6189,7 +6189,7 @@
         },
         {
           "id": 3,
-          "response": "Dinar kuweitian",
+          "response": "Dinarul kuweitian",
           "isCorrect": true
         }
       ]
@@ -6213,7 +6213,7 @@
         },
         {
           "id": 3,
-          "response": "Mozambique",
+          "response": "Mozambic",
           "isCorrect": false
         }
       ]
@@ -6237,7 +6237,7 @@
         },
         {
           "id": 3,
-          "response": "Criza de credite din 1772",
+          "response": "Criza de Credite din 1772",
           "isCorrect": false
         }
       ]
@@ -6252,7 +6252,7 @@
         {
           "id": 1,
           "response": "Home Sapiens",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": 2,
@@ -6268,7 +6268,7 @@
     },
     {
       "id": 127,
-      "question": "Care este primul organ ce de dezvoltă intr-un făt?",
+      "question": "Care este primul organ ce se dezvoltă într-un făt?",
       "difficulty": "Hard",
       "category": "Natural Sciences",
       "domain": "Biology",
@@ -6280,7 +6280,7 @@
         },
         {
           "id": 2,
-          "response": "Plămanii",
+          "response": "Plămânii",
           "isCorrect": false
         },
         {
@@ -6519,6 +6519,25 @@
       "password": "nor",
       "email": "manuela_achimov@yahoo.com",
       "id": 7
+    },
+    {
+      "username": "alexaach2",
+      "password": "Alexandra21!",
+      "email": "aalexa210598@gmail.com",
+      "id": 8
+    }
+  ],
+  "quizzes": [
+    {
+      "quizDate": "2023-08-15T18:04:28.289Z",
+      "score": 6,
+      "id": 1
+    },
+    {
+      "username": "alexaach2",
+      "quizDate": "2023-08-15T18:12:58.984Z",
+      "score": 6,
+      "id": 2
     }
   ]
 }
