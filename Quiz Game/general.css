@@ -3,6 +3,62 @@
     padding: 0;
 }
 
+body {
+    overflow-x: scroll;
+}
+
+/* LOGIN PAGE */
+
+/* overwriting Bootstrap templates  */
+
+.login-body {
+    background-image: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5)) !important;
+    overflow: hidden;
+}
+
+.h-100 {
+    height: auto !important;
+}
+
+#loginBtn {
+    width: 455px;
+    margin-left: 0;
+    background-image: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1)) !important;
+}
+
+.btn-outline-danger {
+    color: #379bc0;
+    border-color: #379bc0;
+}
+
+.btn-outline-danger:hover {
+    background-color: #379bc0;
+    border-color: #379bc0;
+}
+
+.row>* {
+    /* height: 361px; */
+    width: min-content;
+}
+
+.card {
+    border-radius: 0.3rem !important;
+}
+
+.py-5 {
+    padding-top: 0 !important;
+}
+
+#loginForm>div>div>div,
+#registerContainer2>div>div>div>div {
+    width: 600px;
+}
+
+.mb-5 {
+    margin-bottom: 2rem !important;
+}
+
+
 @media (min-width: 768px) {
     .gradient-form {
         height: 100vh !important;
@@ -14,6 +70,7 @@
     }
 }
 
+/* DASHBOARD PAGE */
 
 .theme-light {
     --color-primary: yellowgreen;
@@ -21,6 +78,7 @@
     --color-accent: yellowgreen;
     --font-color: black;
     --background-color: #a2d0444d;
+    --hover-color: #81aa53;
     --background-brightness: 140%;
     --gradient-primary: to right, #ADD100 0%, #7B920A 51%, #ADD100 100%;
     --gradient-secondary: 117deg, rgba(123, 216, 96) 39.2%, rgba(255, 255, 255) 156.2%;
@@ -33,6 +91,7 @@
     --color-accent: white;
     --font-color: #cade9f;
     --background-color: #57783a;
+    --hover-color: #667e4a;
     --background-brightness: 63%;
     --gradient-primary: to right, #334011 0%, #718028 51%, #384011 100%;
     --gradient-secondary: 117deg, rgba(65, 136, 0) 39.2%, rgba(133, 221, 53) 156.2%;
@@ -40,7 +99,8 @@
 }
 
 .display {
-    display: inline-flex;
+    /* display: inline-flex; */
+    display: inline;
 }
 
 .no-display {
@@ -116,18 +176,29 @@ header {
     filter: brightness(var(--background-brightness));
     background-position: center;
     background-repeat: repeat;
-    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+
+/* customize color for dark mode */
+
+#logoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding-left: 24px;
+    flex: 1;
 }
 
 #logoImg {
-    width: 65px;
-    margin-left: -109px;
+    width: 4rem;
+    padding-left: 2rem;
+    margin-bottom: 4px;
+    /* margin-left: -141px; */
 }
 
 h1 {
-    color: var(--font-color);
     margin-top: 2px;
-    margin-left: -127px;
+    padding-left: 14px;
 }
 
 #iconItemContainer {
@@ -135,7 +206,9 @@ h1 {
     display: flex;
 }
 
+/* customize color for dark mode */
 .icon-item {
+    fill: var(--color-accent);
     margin: 2rem 4.5rem 0.3rem 2rem;
     text-align: center;
     transition: transform 0.3s ease;
@@ -205,7 +278,6 @@ nav {
 }
 
 .nav-btn-style:hover {
-    color: var(--color-accent);
     cursor: pointer;
 }
 
@@ -229,7 +301,7 @@ button {
 }
 
 .dropdown-container>p:hover {
-    background-color: #81aa53;
+    background-color: var(--hover-color);
 }
 
 .caret-right-icon {
@@ -255,22 +327,27 @@ main {
 }
 
 #playBtnContainer {
+    position: relative;
     display: flex;
-    flex: auto;
+    flex: 88%;
     align-items: flex-end;
-    justify-content: center;
     margin-bottom: 2rem;
 
 }
 
+#startQuizBtn {
+    margin-top: 4rem!important;
+    margin-left: 2px!important;
+}
+
 #playBtn,
 #startQuizBtn,
-#findResultBtn {
+#findResultBtn,
+#saveChangesBtn {
 
     background-image: linear-gradient(var(--gradient-primary));
     margin: 10px;
     padding: 15px 45px;
-    text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
@@ -284,7 +361,8 @@ main {
 
 #playBtn:hover,
 #startQuizBtn:hover,
-#findResultBtn:hover {
+#findResultBtn:hover,
+#saveChangesBtn:hover {
     background-position: right center;
     /* change the direction of the change here */
     color: #fff;
@@ -293,7 +371,8 @@ main {
 
 #playBtn:active,
 #startQuizBtn:active,
-#findResultBtn:active {
+#findResultBtn:active,
+#saveChangesBtn:active {
     box-shadow: 0 5px #54630b;
     transform: translateY(4px);
 }
@@ -301,12 +380,9 @@ main {
 #beforeQuizContainer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    flex: 64%;
+    justify-content: flex-start;
     align-items: center;
-}
-
-#startQuizBtn {
-    margin-top: 4rem;
 }
 
 select {
@@ -317,8 +393,9 @@ select {
 
 #quizContainer {
     height: max-content;
-    width: 46rem;
-    border: 4px solid var(--font-color);
+    width: 58%;
+    border: 3.4px solid var(--font-color);
+    margin-bottom: 9.25rem;
 }
 
 #quizContainer p {
@@ -326,29 +403,31 @@ select {
     padding: 1rem;
     margin: 1rem 1rem 1rem 0;
 }
+
 /* to be improved for longer questions that spill out the contaienr */
-#questionWrapper {
-    overflow: visible!important;
+/* #questionWrapper {
     
-}
+   
+} */
 
 #quizQuestion {
     overflow: hidden;
     white-space: nowrap;
-    word-wrap: break-word!important;
+    word-wrap: break-word !important;
     margin: 0 auto;
     letter-spacing: 1px;
     animation:
-    typing 2s steps(40, end)
+        typing 2s steps(40, end)
 }
 
 /* TO BE IMPROVED IN THE FUTURE AS DIRECTION IS WRONG */
-#questionWrapper + p {
+#questionWrapper+p {
     overflow: hidden;
     white-space: nowrap;
     margin: 0 auto;
     animation:
-        typing 2s steps(40, end)
+        typing 2s steps(40, end);
+    overflow-wrap: break-word;
 }
 
 @keyframes typing {
@@ -361,15 +440,14 @@ select {
     }
 }
 
-
-/* label {
-    color: var(--font-color);
-} */
-
 input[type="radio"] {
     padding: 4px;
     margin: 8px;
     accent-color: #586c31;
+}
+
+#findResultBtnContainer {
+    margin-bottom: 3rem;
 }
 
 #userScoreContainer {
@@ -379,12 +457,33 @@ input[type="radio"] {
     text-align: center;
 }
 
-#resultText, #ShowUserScore {
+#resultText,
+#ShowUserScore {
     margin-top: 21px;
     padding: 14px;
     color: var(--font-color);
     border: 3px solid var(--font-color);
 }
+
+#accountInfoContainer {
+    text-align: center;
+    margin-top: 4em;
+}
+
+#accountInfoContainer input {
+    display: flex;
+    margin: 8px;
+}
+
+#accountInfoContainer label,
+#userChoicesContainer label {
+    color: var(--font-color);
+}
+
+#saveChangesBtn {
+    margin: 12px -31px 0px -6px;
+}
+
 
 footer {
     grid-area: foot;
@@ -508,8 +607,15 @@ textarea {
 
 @media screen and (max-width: 720px) {
 
-    body {
-        overflow: unset;
+    #logoImg {
+        margin: 6px auto auto -1px;
+        width: 12%;
+        float: left;
+    }
+
+    #siteName {
+        display: inline-block;
+        margin: 5% auto auto 2% !important;
     }
 
 
@@ -517,32 +623,67 @@ textarea {
         height: fit-content;
         display: grid;
         grid-template-areas:
-            "head nav nav"
-            "main main main"
-            "main main main"
+            "head head head"
+            "greet greet nav"
+            "main main nav"
             "foot foot foot";
-        grid-template-rows: 1fr 4.6fr 1fr;
+        grid-template-rows: 0fr 0fr 5.8fr 0fr;
         grid-template-columns: 1fr;
     }
 
-    #headerNav,
+    #headerNav {
+        height: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #userGreet {
+        grid-area: greet;
+        margin: 0;
+        padding: 10px;
+        background-color: var(--color-secondary);
+    }
+
     main {
         height: auto;
         display: flex;
         flex-direction: column;
     }
 
-    #logoImg {
-        display: none;
+    #sidenavBackgroundImg {
+        display: contents;
     }
 
+    #mobileMenuIcon {
+        display: block !important;
+        height: 2.5rem;
+        margin-top: -5px;
+        cursor: pointer;
+        background-color: var(--hover-color);
+        border-radius: 32%;
+        box-shadow: rgb(0 0 0 / 22%) 0px 4px 12px;
+    }
 
     #sidenavContainer {
+        grid-area: nav;
         height: auto;
-        display: flex;
         flex-direction: column;
         justify-content: space-between;
         background-color: var(--color-primary);
+        opacity: 85%;
+    }
+
+    .dropdown-container {
+        position: inherit;
+        display: block !important;
+    }
+
+    .caret-right-icon {
+        padding-top: 0;
+    }
+
+    .nav-btn-style {
+        margin-bottom: 24px;
     }
 
     .toggle-menu {
@@ -553,18 +694,36 @@ textarea {
         flex: auto;
     }
 
+    select {
+        height: 40%;
+    }
+
     footer {
-        height: min-content;
+        margin-bottom: 8px;
+    }
+
+    #iconItemContainer {
+        margin: 0
     }
 
 
     .icon-item {
-        margin-top: 24px 0 0 0 0;
+        height: 1.6rem;
+        width: 3rem;
+        margin: 0 2rem 0 0;
     }
 
 
     .link-item {
         margin-bottom: 1rem;
+    }
+
+    #quizContainer {
+        width: max-content;
+    }
+
+    #copyrightText {
+        margin-bottom: 18px;
     }
 
 }

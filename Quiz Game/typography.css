@@ -12,7 +12,8 @@ h3 {
     font-size: 1rem;
 }
 
-#countdown, #countdownDuration {
+#countdown,
+#countdownDuration {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: larger;
 }
@@ -22,25 +23,18 @@ h3 {
     font-weight: bold;
 }
 
-@media screen and (max-width: 720px) {
-
-    h1 {
-        font-size: 1.5rem;
-    }
-
-}
-
 /* FEEDBACK FORM */
 
- .feedback-form label {
+.feedback-form label {
     color: white;
- }
+}
 
 form {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h3, .feedback-form > p {
+h3,
+.feedback-form>p {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -48,3 +42,42 @@ footer p {
     font-size: smaller;
 }
 
+@media screen and (max-width: 720px) {
+
+    h2 {
+        font-size: smaller;
+    }
+
+    #quizHeaderNavBtn,
+    #accountHeaderNavBtn {
+        font-weight: bold;
+    }
+
+    #feedbackFormTitle {
+        font-size: 0.9rem;
+    }
+
+    #accountInfoContainer label,
+    #userChoicesContainer label, .feedback-form label {
+        font-size: 0.8rem;
+    }
+
+    select {
+        font-size: 0.7rem;
+    }
+
+    .icon-text,
+    #playBtn,
+    #startQuizBtn,
+    #findResultBtn,
+    #saveChangesBtn, #submitFeedbackBtn, 
+    .nav-btn-style, .feedback-form p {
+        font-size: 0.7rem;
+    }
+
+    .footer-nav a,
+    footer p {
+        font-size: small;
+    }
+
+}

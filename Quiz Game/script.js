@@ -1,7 +1,8 @@
 
-const apiUsers = 'http://localhost:3000/users';
-const apiQuestionsEN = 'http://localhost:3000/questionsEN';
-const apiQuestionsRO = 'http://localhost:3000/questionsRO';
+const apiUsers = "http://localhost:3000/users";
+const apiQuestionsEN = "http://localhost:3000/questionsEN";
+const apiQuestionsRO = "http://localhost:3000/questionsRO";
+const apiQuizzes = "http://localhost:3000/quizzes";
 
 function hideElem(toHide) {
     toHide.classList.add("no-display");
@@ -18,22 +19,29 @@ function redirectTo(filename) {
     return;
 }
 
-// APPLY USER'S PREFERENCES WHEN REFRESHING THE PAGE
+const sidenavContainer = document.getElementById("sidenavContainer");
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", () => {
 
-    const storedTheme = localStorage.getItem("theme-preference");
+    // APPLY USER'S PREFERENCES WHEN REFRESHING THE PAGE
 
-    if (storedTheme) {
-        setTheme(storedTheme);
+    if (localStorage.getItem("theme-preference")) {
+        setTheme(localStorage.getItem("theme-preference"));
         changeThemeText();
     };
 
-    const storedLanguage = localStorage.getItem("language");
-
-    if (storedLanguage) {
-        changeLanguage(storedLanguage);
+    if (localStorage.getItem("language")) {
+        changeLanguage(localStorage.getItem("language"));
+        reallignSiteTitle();
     };
+
+    // DO NOT DISPLAY HEADER MENU IF USER IS VISITING FROM MOBILE
+
+    const deviceWidth = window.innerWidth;
+
+    if (deviceWidth <= 720) {
+        hideElem(sidenavContainer);
+    }
 
 });
 
@@ -80,7 +88,7 @@ class User {
         fetch(`${apiUsers}`, {
             method: "POST",
             headers: {
-                'Content-Type': 'application/json'
+                "Content-Type": "application/json"
             },
             body: JSON.stringify(newUser)
         })
@@ -93,7 +101,7 @@ class User {
                 redirectTo("dashboard");
             }
             )
-            .catch(error => console.log('Error: ' + error))
+            .catch(error => console.log("Error: " + error))
     }
 
     authenticateUser(serverData) {
@@ -112,7 +120,7 @@ class User {
         fetch(`${apiUsers}?username=${this.username}`)
             .then(response => { return response.json() })
             .then(data => { this.authenticateUser(data) })
-            .catch(error => console.log('Error: ' + error))
+            .catch(error => console.log("Error: " + error))
     }
 
 }
@@ -129,7 +137,25 @@ class LoggedUser extends User {
         displayUsername.textContent = this.username + "!";
     }
 
-    changeUsername() {
+    // change username or password
+    // same error as for deleteAccount()
+    changeUsername(newUsername) {
+
+        fetch(`${apiUsers}?username=${this.username}`, {
+            method: "PUT",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({ username: newUsername })
+
+        })
+            .then(response => { return response.json() })
+            .then(data => {
+                alert("Your username has been successfully changed!");
+            })
+            .catch(error => {
+                alert("An error occured and we couldn't change your username", error);
+            });
 
     }
 
@@ -148,13 +174,13 @@ class LoggedUser extends User {
         })
             .then(response => {
                 if (response.ok) {
-                    alert("Your account has been deleted. You will be redirect to the login page");
+                    alert("Your account has been deleted. You will be redirected to the login page");
                     redirectTo("home");
                 } else {
                     alert("An error occured and we couldn't delete your account. Please try again later.");
                 }
             })
-            .catch(error => console.log('Error: ' + error))
+            .catch(error => console.log("Error: " + error))
     }
 
     // getEmail() {
@@ -182,6 +208,29 @@ class LoggedUser extends User {
     // }
 
     // }
+
+    sendQuizDataToDb(username, quizDate, userScore) {
+
+        fetch(`${apiQuizzes}`, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                username: username,
+                quizDate: quizDate,
+                score: userScore
+            })
+        })
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
+                alert("Quiz data successfully sent to the database!");
+            }
+            )
+            .catch(error => console.log("Error: " + error))
+
+    }
 }
 
 
@@ -235,13 +284,11 @@ if (registerBtn) {
         // validate data
 
         newUsername = document.getElementById("form3Example1cg").value;
-        newEmail = document.getElementById("form3Example3cg").value;
         newPassword = document.getElementById("form3Example4cg").value;
         repeatedPassword = document.getElementById("form3Example4cdg").value;
+        newEmail = document.getElementById("form3Example3cg").value;
 
-        isValid = true;
-
-        validateData(newUsername, newEmail, newPassword, repeatedPassword);
+        validateData(newUsername, newPassword, repeatedPassword, newEmail);
 
         // create new account if data is valid
 
@@ -255,7 +302,8 @@ if (registerBtn) {
     )
 }
 
-function validateData(username, email, password, repeatedPassword) {
+function validateData(username, password, repeatedPassword, email) {
+    // future improvement: divide this function into more specialized functions
 
     if (username.length == 0 || email.length == 0 || password.length == 0 ||
         repeatedPassword.length == 0) {
@@ -263,8 +311,19 @@ function validateData(username, email, password, repeatedPassword) {
         isValid = false;
     }
 
-    if (!email.includes("@", ".")) {
-        alert("Please enter a valid e-mail address!");
+    isNotTaken(username, email);
+
+    // validate that password has the required pattern
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+        alert("Please enter a valid email address!");
+        isValid = false;
+    }
+
+    // validate that password has the required pattern
+    const passwordRegex = /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,16}$/;
+    if (!passwordRegex.test(password)) {
+        alert("Password should be between 8 and 16 characters long and contain at least one number and one special character.");
         isValid = false;
     }
 
@@ -278,9 +337,77 @@ function validateData(username, email, password, repeatedPassword) {
         isValid = false;
     }
 
+    return;
+
 }
 
-// future improvements: verify that username and email are not taken
+// verify that username and email are not taken
+
+async function isNotTaken(data) {
+    const usersApiProperty = data.includes("@") ? "email" : "username";
+
+    try {
+        // doesn't work properly because API always returns response.ok = true & status 200 whether the resource is found or not;
+        // same behaviour in Postman
+        const response = await fetch(`${apiUsers}?${usersApiProperty}=${data}`);
+
+        if (response.ok === true) {
+            console.log(response);
+            console.log(response.ok);
+            // Username or email is taken
+            alert("The username you entered is already taken or the email address you want to use is already associated with another account!");
+            debugger;
+            return isValid = false;
+        } else {
+            // Username or email is not taken
+            return isValid = true;
+        }
+    } catch (error) {
+        console.error("An error occured:", error);
+        throw error; // Re-throw the error for further handling
+    };
+};
+
+// future improvement: display the validation errors not in alerts but dynamically in DOM
+
+// CHANGE USERNAME
+
+const changeUsernameBtn = document.getElementById("changeUsernameBtn");
+const changeUsernameWrapper = document.getElementById("changeUsernameWrapper");
+const saveChangesBtn = document.getElementById("saveChangesBtn");
+let currentUsername;
+let currentPassword = document.getElementById("currentcurrentPassword");
+
+if (changeUsernameBtn) {
+    changeUsernameBtn.addEventListener("click", () => {
+        hideElem(playBtn);
+        displayElem(changeUsernameWrapper);
+        displayElem(saveChangesBtn);
+    }
+    )
+};
+
+if (saveChangesBtn) {
+
+    saveChangesBtn.addEventListener("click", () => {
+        currentUsername = document.getElementById("currentUsername").value;
+        newUsername = document.getElementById("newUsername").value;
+
+        if (currentUsername === currentUser.username && newUsername.length !== 0) {
+            currentUser.changeUsername(newUsername);
+            // not working
+            // isNotTaken(newUsername);
+
+        } else {
+            alert("The username you entered does not match the username associated with the account.");
+        }
+
+        // if (isValid) {
+        //     currentUser.changeUsername(newUsername);
+        // }
+
+    })
+}
 
 
 // BACK TO LOGIN PAGE
@@ -302,8 +429,7 @@ if (loginHereBtn) {
 // look for changes of the 'username' property found in Local Storage in order to accurately welcome the user
 
 if (localStorage.username.length) {
-    currentUser = new LoggedUser(localStorage.getItem("username"), localStorage.getItem("password"));
-    console.log(currentUser);
+    currentUser = new LoggedUser(localStorage.getItem("username"), localStorage.getItem("password"),);
     currentUser.welcomeUser();
 }
 
@@ -312,7 +438,7 @@ let dropdownContainer;
 
 function displayDropdownMenu(dropdownNo) {
     dropdownContainer = document.getElementsByClassName("dropdown-container")[dropdownNo];
-    selectedButton = document.getElementsByClassName("dropdown-btn")[dropdownNo];
+    // selectedButton = document.getElementsByClassName("dropdown-btn")[dropdownNo];
 
     displayElem(dropdownContainer);
 
@@ -406,10 +532,14 @@ function setLanguage(lang) {
         languageText.textContent = "RO";
     }
 
+    reallignSiteTitle();
+
     // update the language in the URL parameters
     const urlParams = new URLSearchParams(window.location.search);
     urlParams.set("lang", lang);
-    window.history.replaceState({}, '', `${window.location.pathname}?${urlParams.toString()}`);
+    window.history.replaceState({}, "", `${window.location.pathname}?${urlParams.toString()}`);
+
+
 }
 
 const showUserScore = document.getElementById("showUserScore");
@@ -422,10 +552,10 @@ function changeLanguage(lang) {
             themeText: localStorage.getItem("theme-preference") === "theme-dark" ? "Tema deschisă" : "Tema închisă",
             feedbackText: "Trimite feedback",
             userGreet: "Bine ai venit, " + "",
-            headerNavBtn1: "Quizurile mele",
+            quizHeaderNavBtn: "Quizurile mele",
             previousQuizzesBtn: "Quizuri anterioare",
             favCategBtn: "Categorii preferate",
-            headerNavBtn2: "Contul meu",
+            accountHeaderNavBtn: "Contul meu",
             changeUsernameBtn: "Schimbă numele de utilizator",
             changePasswordBtn: "Schimbă parola",
             deleteAccountBtn: "Ștergere cont",
@@ -460,10 +590,10 @@ function changeLanguage(lang) {
             themeText: localStorage.getItem("theme-preference") === "theme-dark" ? "Light theme" : "Dark theme",
             feedbackText: "Send feedback",
             userGreet: "Welcome, " + "",
-            headerNavBtn1: "My Quizzes",
+            quizHeaderNavBtn: "My Quizzes",
             previousQuizzesBtn: "Previous quizzes",
             favCategBtn: "My favourite categories",
-            headerNavBtn2: "My Account",
+            accountHeaderNavBtn: "My Account",
             changeUsernameBtn: "Change username",
             changePasswordBtn: "Change password",
             deleteAccountBtn: "Delete account",
@@ -536,15 +666,17 @@ function changeLanguage(lang) {
 
     }
 
-    // reallign the name of the site based on language; doesn't work when refreshing the page/first entering the website
-
-    if (localStorage.getItem("language") === "ro") {
-        siteName.style.margin = "2px 0 0 -127px"
-    } else {
-        siteName.style.margin = "2px 0 0 -140px";
-    }
 
 };
+
+// reallign site title based on language
+function reallignSiteTitle() {
+    if (localStorage.getItem("language") === "ro") {
+        siteName.style.padding = "0 0 0 0px";
+    } else {
+        siteName.style.padding = "0 0 0 14px";
+    }
+}
 
 // FEEDBACK FORM
 
@@ -570,20 +702,30 @@ function hidePopup() {
 
 // display a thank you message to the user who sent feedback
 
-submitFeedbackBtn = document.getElementById("submitFeedbackBtn");
+const submitFeedbackBtn = document.getElementById("submitFeedbackBtn");
+const feedbackFormName = document.getElementById("feedbackFormName");
+const feedbackFormEmail = document.getElementById("feedbackFormEmail");
+const feedbackFormText = document.getElementById("feedbackFormText");
+
+//  future improvement: validate email 
 
 if (submitFeedbackBtn) {
 
     submitFeedbackBtn.addEventListener("click", () => {
-        hidePopup();
-        alert("Thank you for taking the time to share your feedback with us!");
+
+        if (submitFeedbackBtn && feedbackFormEmail.length > 0 && feedbackFormName.length > 0 && feedbackFormText.length > 10) {
+            hidePopup();
+            alert("Thank you for taking the time to share your feedback with us!");
+        } else {
+            alert("Please fill in all the fields!");
+        }
     }
     )
 }
 
 // DELETE ACCOUNT
 
-const deleteAccountBtn = document.getElementById('deleteAccBtn');
+const deleteAccountBtn = document.getElementById("deleteAccountBtn");
 
 if (deleteAccountBtn) {
     deleteAccountBtn.addEventListener("click", () => {
@@ -591,7 +733,7 @@ if (deleteAccountBtn) {
         if (confirm("Are you sure you want to delete your account?") == true) {
             currentUser.deleteAccount();
         } else {
-            alert("Your account won't be deleted.")
+            alert("Your account won't be deleted.");
         }
 
     }
@@ -600,7 +742,7 @@ if (deleteAccountBtn) {
 
 // LOGOUT
 
-const logOutBtn = document.getElementById('logOutBtn');
+const logOutBtn = document.getElementById("logOutBtn");
 
 if (logOutBtn) {
     logOutBtn.addEventListener("click", () =>
@@ -612,6 +754,7 @@ if (logOutBtn) {
 // I WANT TO PLAY
 
 const startQuizBtnContainer = document.getElementById("startQuizBtnContainer");
+const startQuizBtn = document.getElementById("startQuizBtn");
 const playBtnContainer = document.getElementById("playBtnContainer");
 const playBtn = document.getElementById("playBtn");
 const userChoicesContainer = document.getElementById("userChoicesContainer");
@@ -622,37 +765,63 @@ if (playBtn) {
 
         displayElem(userChoicesContainer);
         displayElem(startQuizBtnContainer);
+        displayElem(startQuizBtn);
         hideElem(playBtnContainer);
-
+        hideElem(userScoreContainer);
     })
 };
 
 // START QUIZ
+
+if (startQuizBtn) {
+    startQuizBtn.addEventListener("click", () => {
+
+        hideElem(userChoicesContainer);
+        hideElem(startQuizBtn);
+        displayElem(quizContainer);
+
+        categoryFromUser = categoryFromUser.value;
+        difficultyFromUser = difficultyFromUser.value;
+
+        fetch(`${apiLangEndpoint}?difficulty=${difficultyFromUser}&category=${categoryFromUser}`)
+            .then(response => response.json())
+            .then(json => {
+                quizFromDatabase.push(...json);
+                displayQuestion(json);
+
+            });
+
+    })
+};
 
 let countdown;
 
 const questionWrapper = document.getElementById("questionWrapper");
 
 function startCountdown(seconds) {
-    let countdownValue = seconds + 1;
+
     // display the seconds available to answer the question
     document.getElementById("countdownDuration").textContent = seconds + "/";
 
+    let countdownValue = seconds;
+
+    document.getElementById("countdown").textContent = "" + countdownValue;
+
     countdown = setInterval(() => {
+
         countdownValue--;
 
         // Update the no. of seconds as they pass 
-        document.getElementById("countdown").innerHTML = "" + countdownValue;
+        document.getElementById("countdown").textContent = "" + countdownValue;
 
-        if (countdownValue === 1) {
-            countdownValue = seconds + 1;
+        if (countdownValue === 0) {
+            // to be optimized in the future to also display "0" to the user before resetting the countdown
+            countdownValue = seconds;
         }
+
     }, 1000);
 
 }
-
-
-let responsesFromUser = [];
 
 // THIS PART NEEDS TO BE BETTER ORGANIZED IN THE FUTURE; HARD TO READ CODE; TO MOVE SEVERAL FUNCTIONALITIES FROM 
 // displayQuestion FUNCTION TO OTHER FUNCTIONS WHICH WILL BE CALLED INSIDE displayQuestion function TO MAKE
@@ -727,7 +896,6 @@ function displayQuestion(data, currentIndex = 0) {
                 // search for that selected radio button and push its value to the responsesFromUser array
                 const selectedButton = radioButtons.find((button) => button.checked);
                 responsesFromUser.push(selectedButton.value);
-                console.log(responsesFromUser);
             }
 
 
@@ -759,12 +927,6 @@ const findResultBtn = document.getElementById("findResultBtn");
 if (findResultBtn) {
     findResultBtn.addEventListener("click", () => {
 
-        // TO BE USED IN THE FUTURE TO IMPLEMENT THE FUNCTIONALITY TO VIEW PREVIOUS
-        // QUIZZES 
-        const dateOfQuiz = new Date();
-        let timeOfQuiz = dateOfQuiz.getTime();
-        console.log(dateOfQuiz, timeOfQuiz);
-
         // FIND USER'S SCORE
 
         const userScoreContainer = document.getElementById("userScoreContainer");
@@ -782,41 +944,44 @@ if (findResultBtn) {
         showUserScore.innerText = "" + userScore + " / ";
         hideElem(findResultBtnContainer);
 
-        // NOT WORKING; TO DO
+        // TO BE USED IN THE FUTURE TO IMPLEMENT THE FUNCTIONALITY TO VIEW PREVIOUS
+        // QUIZZES 
 
-        playBtn.textContent = "Start new game";
+        const dateOfQuiz = new Date();
+        console.log(dateOfQuiz);
+
+        currentUser.sendQuizDataToDb(currentUser.username, dateOfQuiz, userScore);
+
+        // code fails; will have to rethink this
+        // displayElem(playBtnContainer);
+        // playBtnContainer.style.top = "80%";
+        // playBtn.textContent = "I want to play again!";
 
     })
 };
 
-let categoryFromUser = document.getElementById('categoryFromUser')
-let difficultyFromUser = document.getElementById('difficultyFromUser');
+let categoryFromUser = document.getElementById("categoryFromUser")
+let difficultyFromUser = document.getElementById("difficultyFromUser");
 const quizFromDatabase = [];
 
-const startQuizBtn = document.getElementById("startQuizBtn");
-const quizContainer = document.getElementById('quizContainer');
+const quizContainer = document.getElementById("quizContainer");
 
-const apiEndpoint = localStorage.getItem("language") === "ro" ? apiQuestionsRO : apiQuestionsEN;
+const apiLangEndpoint = localStorage.getItem("language") === "ro" ? apiQuestionsRO : apiQuestionsEN;
 
+// MOBILE VERSION
 
-if (startQuizBtn) {
-    startQuizBtn.addEventListener("click", () => {
+// show or hide header menu when clicking on menu icon
 
-        hideElem(userChoicesContainer);
-        hideElem(startQuizBtn);
-        displayElem(quizContainer);
+const menuIconBtn = document.getElementById("mobileMenuIcon");
 
-        categoryFromUser = categoryFromUser.value;
-        difficultyFromUser = difficultyFromUser.value;
+if (menuIconBtn) {
+    menuIconBtn.addEventListener("click", () => {
 
-        fetch(`${apiEndpoint}?difficulty=${difficultyFromUser}&category=${categoryFromUser}`)
-            .then(response => response.json())
-            .then(json => {
-                quizFromDatabase.push(...json);
-                displayQuestion(json);
-
-            });
-
+        if (sidenavContainer.classList.contains("no-display")) {
+            displayElem(sidenavContainer);
+        } else {
+            hideElem(sidenavContainer);
+        }
     })
 };
 

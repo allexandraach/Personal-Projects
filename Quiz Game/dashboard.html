@@ -22,26 +22,30 @@
 
         <header id="headerNav">
 
-            <div><img src="https://i.ibb.co/tCsh7dV/quiz-icon.png" id="logoImg" alt="logo">
+            <div id="logoContainer"> <img src="https://i.ibb.co/tCsh7dV/quiz-icon.png" id="logoImg" alt="logo">
                 <h1 id="siteName">Superlatives Quiz</h1>
             </div>
 
             <div id="iconItemContainer">
+
+                <div><img class="no-display icon-item" id="mobileMenuIcon" src="https://svgshare.com/i/wWA.svg" alt="mobile-menu-icon">
+                </div>
+
                 <div>
-                    <img class="icon-item" src="https://svgshare.com/i/sSw.svg" alt="theme-icon" height="30em"
-                        onclick="toggleTheme()">
+                    <img class="icon-item" src="https://svgshare.com/i/sSw.svg" alt="theme-btn-icon"
+                         height="30em" onclick="toggleTheme()">
                     <div class="icon-text" id="themeText">Dark theme</div>
                 </div>
 
                 <div>
-                    <img class="icon-item" id="changeLangBtn" src="https://svgshare.com/i/sRL.svg" alt="language-icon"
-                        height="30em">
+                    <img class="icon-item" id="changeLangBtn" src="https://svgshare.com/i/sRL.svg"
+                        alt="language-btn-icon" height="30em">
                     <div class="icon-text" id="languageText"> RO </div>
                 </div>
 
                 <div>
-                    <img class="icon-item" src="https://svgshare.com/i/sSJ.svg" id="feedbackIcon" alt="feedback-icon"
-                        height="30em" onclick="showPopup()">
+                    <img class="icon-item" src="https://svgshare.com/i/sSJ.svg" id="feedbackIcon"
+                        alt="feedback-btn-icon" height="30em" onclick="showPopup()">
                     <div class="icon-text" id="feedbackText">Send feedback </div>
                 </div>
             </div>
@@ -53,7 +57,7 @@
                 <div>
                     <div class="dropdown">
                         <button onmouseover="displayDropdownMenu(0)" class="nav-btn-style dropdown-btn"
-                            id="headerNavBtn1"> My Quizzes
+                            id="quizHeaderNavBtn"> My Quizzes
                             <img src="https://svgshare.com/i/sSs.svg" alt="caret-right-icon"
                                 class="caret-right-icon"></button>
                         <div onmouseleave="hideDropdownMenu(0)" class="nav-btn-style dropdown-container no-display">
@@ -65,7 +69,7 @@
 
                     <div class="dropdown">
                         <button onmouseover="displayDropdownMenu(1)" class="nav-btn-style dropdown-btn"
-                            id="headerNavBtn2"> My Account <img src="https://svgshare.com/i/sSs.svg"
+                            id="accountHeaderNavBtn"> My Account <img src="https://svgshare.com/i/sSs.svg"
                                 alt="caret-right-icon" class="caret-right-icon"></button>
 
                         <div onmouseleave="hideDropdownMenu(1)" class="nav-btn-style dropdown-container no-display">
@@ -91,27 +95,27 @@
                 <button id="playBtn"> I want to play!</button>
             </div>
 
-            <div class="no-display" id="accountInfoContainer">
-                <!-- change email -->
-                <input type="email" id="current-email" placeholder="Email" />
-                <label for="current-email"></label>
-
-                <input type="email" id="current-email" placeholder="Email" />
-                <label for="new-email"></label>
+            <div id="accountInfoContainer">
 
                 <!-- change password -->
-                <input type="password" id="current-password">
-                <label for="current-password"></label>
+                <div id="changePasswordWrapper" class="no-display" >
+                    <input type="password" id="currentPassword" required>
+                    <label for="currentPassword"> Current password </label>
 
-                <input type="password" id="new-password">
-                <label for="new-password"></label>
+                    <input type="password" id="newPassword" required>
+                    <label for="newPassword"> New password</label>
+                </div>
 
                 <!-- change username -->
-                <input type="text" id="current-username">
-                <label for="current-username"></label>
+                <div id="changeUsernameWrapper" class="no-display">
+                    <label for="username"> Current username</label>
+                    <input type="text" id="currentUsername" required>
+                    
+                    <label for="new-username">New username</label>
+                    <input type="text" id="newUsername" required>
+                </div>
 
-                <input type="text" id="new-username">
-                <label for="new-username"></label>
+                <button id="saveChangesBtn" class="no-display">Save changes</button>
 
             </div>
 
@@ -151,7 +155,7 @@
 
             <div class="no-display" id="userScoreContainer">
 
-                <img src="https://svgshare.com/i/w5v.svg" alt="congratulations-icon" height="200px">
+                <img src="https://svgshare.com/i/w5v.svg" alt="" height="200px">
 
                 <!-- future improvement: change the message based on the scored obtained by the user -->
 
