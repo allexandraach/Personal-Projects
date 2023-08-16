@@ -71,17 +71,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // LOGIN PAGE
 
-// FUTURE IMPROVEMENT: MAKE THE PROPERTIES PRIVATE
+// to fix issue with email being saved in LocalStorage
 
 class User {
-    username;
-    password;
-    email;
+    #username;
+    #password;
+    #email;
 
     constructor(username, password, email) {
-        this.username = username;
-        this.password = password;
-        this.email = email;
+        this.#username = username;
+        this.#password = password;
+        this.#email = email;
     }
 
     register() {
@@ -90,37 +90,58 @@ class User {
             headers: {
                 "Content-Type": "application/json"
             },
-            body: JSON.stringify(newUser)
+            body: JSON.stringify({
+                username: this.#username,
+                password: this.#password,
+                email: this.#email,
+            })
         })
             .then(response => response.json())
             .then(data => {
                 console.log(data);
                 alert("Account created successfully!");
-                localStorage.setItem("username", this.username);
-                localStorage.setItem("password", this.password);
+                localStorage.setItem("username", this.#username);
+                localStorage.setItem("password", this.#password);
+                localStorage.setItem("email", this.#email);
                 redirectTo("dashboard");
             }
             )
             .catch(error => console.log("Error: " + error))
     }
 
-    authenticateUser(serverData) {
-        if (serverData[0].username === this.username && serverData[0].password === this.password) {
-            alert("Login successfully!")
-            localStorage.setItem("username", this.username);
-            localStorage.setItem("password", this.password);
-            redirectTo("dashboard");
-        } else {
-            alert("Username or password is not correct. Please try again.");
-        }
-
+    login() {
+        fetch(`${apiUsers}?username=${this.#username}`)
+            .then(response => { return response.json() })
+            .then(data => {
+                if (data.length !== 0 && data[0].password === this.#password) {
+                    alert("Login successfully!")
+                    localStorage.setItem("username", this.#username);
+                    localStorage.setItem("password", this.#password);
+                    redirectTo("dashboard");
+                } else {
+                    alert("The username or password you entered is not correct. Please try again.");
+                }
+            })
     }
 
-    login() {
-        fetch(`${apiUsers}?username=${this.username}`)
-            .then(response => { return response.json() })
-            .then(data => { this.authenticateUser(data) })
-            .catch(error => console.log("Error: " + error))
+    get getEmail() {
+        return this.#email;
+    }
+
+    get getUsername() {
+        return this.#username;
+    }
+
+    get getPassword() {
+        return this.#password;
+    }
+
+    set setUsername(username) {
+        this.#username = username;
+    }
+
+    set setPassword(password) {
+        this.#password = password;
     }
 
 }
@@ -134,14 +155,14 @@ class LoggedUser extends User {
     welcomeUser() {
         // display username on dashboard pageg to welcome user
         const displayUsername = document.getElementById("displayUsername");
-        displayUsername.textContent = this.username + "!";
+        displayUsername.textContent = this.getUsername + "!";
     }
 
     // change username or password
     // same error as for deleteAccount()
     changeUsername(newUsername) {
 
-        fetch(`${apiUsers}?username=${this.username}`, {
+        fetch(`${apiUsers}?username=${this.getUsername}`, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json"
@@ -169,7 +190,7 @@ class LoggedUser extends User {
         // doesn't work; the URL works for GET request but not for a DELETE request, the error 404 not found is fired
         // same behaviour in Postman
 
-        fetch(`${apiUsers}?username=${this.username}`, {
+        fetch(`${apiUsers}?username=${this.getUsername}`, {
             method: "DELETE"
         })
             .then(response => {
@@ -183,33 +204,7 @@ class LoggedUser extends User {
             .catch(error => console.log("Error: " + error))
     }
 
-    // getEmail() {
-    //     return this.#email;
-    // }
-
-    // getUsername() {
-    //     return this.#username;
-    // }
-
-    // getPassword() {
-    //     return this.#password;
-    // }
-
-    // setEmail(email) {
-    //     return this.#email;
-    // }
-
-    // setUsername(username) {
-    //     return this.#username;
-    // }
-
-    // setPassword(password) {
-    //     return this.#password;
-    // }
-
-    // }
-
-    sendQuizDataToDb(username, quizDate, userScore) {
+    sendQuizDataToDb(email, category, difficulty, quizDate, userScore) {
 
         fetch(`${apiQuizzes}`, {
             method: "POST",
@@ -217,7 +212,9 @@ class LoggedUser extends User {
                 "Content-Type": "application/json"
             },
             body: JSON.stringify({
-                username: username,
+                email: email,
+                category: category,
+                difficulty: difficulty,
                 quizDate: quizDate,
                 score: userScore
             })
@@ -225,7 +222,6 @@ class LoggedUser extends User {
             .then(response => response.json())
             .then(data => {
                 console.log(data);
-                alert("Quiz data successfully sent to the database!");
             }
             )
             .catch(error => console.log("Error: " + error))
@@ -351,12 +347,11 @@ async function isNotTaken(data) {
         // same behaviour in Postman
         const response = await fetch(`${apiUsers}?${usersApiProperty}=${data}`);
 
-        if (response.ok === true) {
+        if (response.ok !== true) {
             console.log(response);
             console.log(response.ok);
             // Username or email is taken
             alert("The username you entered is already taken or the email address you want to use is already associated with another account!");
-            debugger;
             return isValid = false;
         } else {
             // Username or email is not taken
@@ -429,7 +424,7 @@ if (loginHereBtn) {
 // look for changes of the 'username' property found in Local Storage in order to accurately welcome the user
 
 if (localStorage.username.length) {
-    currentUser = new LoggedUser(localStorage.getItem("username"), localStorage.getItem("password"),);
+    currentUser = new LoggedUser(localStorage.getItem("username"), localStorage.getItem("password"), localStorage.getItem("email"));
     currentUser.welcomeUser();
 }
 
@@ -573,7 +568,6 @@ function changeLanguage(lang) {
             findResultBtn: "Rezultatul meu",
             timeText: "Timp: ",
             resultText: "Felicitări! Scorul tău este: ",
-            // scoreText: " din 15.",
             feedbackFormTitle: "Contactează-ne",
             feedbackFormText: "Ai întrebări? Ne-am bucura să le auzim. Trimite-ne un mesaj și vom răspunde cât de repede putem.",
             feedbackFormName: "Nume",
@@ -611,7 +605,6 @@ function changeLanguage(lang) {
             findResultBtn: "My results",
             timeText: "Time: ",
             resultText: "Congratulations on finishing the quiz! Your score is: ",
-            // scoreText: " out of 15.",
             feedbackFormTitle: "Contact us",
             feedbackFormText: "Got a question? We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
             feedbackFormName: "Name",
@@ -771,7 +764,13 @@ if (playBtn) {
     })
 };
 
-// START QUIZ
+// START QUI
+
+let categoryFromUser = document.getElementById("categoryFromUser");
+let difficultyFromUser = document.getElementById("difficultyFromUser");
+const quizContainer = document.getElementById("quizContainer");
+const apiLangEndpoint = localStorage.getItem("language") === "ro" ? apiQuestionsRO : apiQuestionsEN;
+const quizFromDatabase = [];
 
 if (startQuizBtn) {
     startQuizBtn.addEventListener("click", () => {
@@ -796,15 +795,16 @@ if (startQuizBtn) {
 
 let countdown;
 
-const questionWrapper = document.getElementById("questionWrapper");
+// needs optimization
 
 function startCountdown(seconds) {
 
     // display the seconds available to answer the question
-    document.getElementById("countdownDuration").textContent = seconds + "/";
+    document.getElementById("countdownDuration").textContent = seconds + " /";
 
     let countdownValue = seconds;
 
+    // the countdown itself
     document.getElementById("countdown").textContent = "" + countdownValue;
 
     countdown = setInterval(() => {
@@ -815,7 +815,6 @@ function startCountdown(seconds) {
         document.getElementById("countdown").textContent = "" + countdownValue;
 
         if (countdownValue === 0) {
-            // to be optimized in the future to also display "0" to the user before resetting the countdown
             countdownValue = seconds;
         }
 
@@ -826,6 +825,8 @@ function startCountdown(seconds) {
 // THIS PART NEEDS TO BE BETTER ORGANIZED IN THE FUTURE; HARD TO READ CODE; TO MOVE SEVERAL FUNCTIONALITIES FROM 
 // displayQuestion FUNCTION TO OTHER FUNCTIONS WHICH WILL BE CALLED INSIDE displayQuestion function TO MAKE
 // THE CODE EASIER TO FOLLOW & READ
+
+let responsesFromUser = [];
 
 function displayQuestion(data, currentIndex = 0) {
 
@@ -855,16 +856,13 @@ function displayQuestion(data, currentIndex = 0) {
         // flag to keep track of whether user selected a radio button or not
         let userSelected = false;
 
-        // flag to keep track of whether time is over or not
-        let TimeOver = false;
-
         // Create question paragraph and add to the questions container
         const questionsParagraph = document.createElement("p");
         const shownQuestions = document.createTextNode(currentQuestion.question);
         questionsParagraph.append(shownQuestions);
         questionsParagraph.setAttribute("id", "quizQuestion");
 
-        questionWrapper.appendChild(questionsParagraph);
+        quizContainer.appendChild(questionsParagraph);
 
         // Create responses paragraph and add to the questions container
         const responsesParagraph = document.createElement("p");
@@ -900,7 +898,7 @@ function displayQuestion(data, currentIndex = 0) {
 
 
             // Remove the current question and responses from the questions container
-            document.getElementById("questionWrapper").removeChild(questionsParagraph);
+            document.getElementById("quizContainer").removeChild(questionsParagraph);
             document.getElementById("quizContainer").removeChild(responsesParagraph);
 
             // Display the next question and if all questions have been displayed, show button to find result
@@ -944,15 +942,14 @@ if (findResultBtn) {
         showUserScore.innerText = "" + userScore + " / ";
         hideElem(findResultBtnContainer);
 
-        // TO BE USED IN THE FUTURE TO IMPLEMENT THE FUNCTIONALITY TO VIEW PREVIOUS
-        // QUIZZES 
+        // send to the db info about the quiz taken 
 
         const dateOfQuiz = new Date();
         console.log(dateOfQuiz);
 
-        currentUser.sendQuizDataToDb(currentUser.username, dateOfQuiz, userScore);
+        currentUser.sendQuizDataToDb(currentUser.getEmail, categoryFromUser, difficultyFromUser, dateOfQuiz, userScore);
 
-        // code fails; will have to rethink this
+        // code fails after implementing this; will have to rethink it
         // displayElem(playBtnContainer);
         // playBtnContainer.style.top = "80%";
         // playBtn.textContent = "I want to play again!";
@@ -960,13 +957,58 @@ if (findResultBtn) {
     })
 };
 
-let categoryFromUser = document.getElementById("categoryFromUser")
-let difficultyFromUser = document.getElementById("difficultyFromUser");
-const quizFromDatabase = [];
+// SHOW PREVIOUS QUIZZES
 
-const quizContainer = document.getElementById("quizContainer");
+const previousQuizzesBtn = document.getElementById("previousQuizzesBtn");
+let previousQuizzesArray = [];
 
-const apiLangEndpoint = localStorage.getItem("language") === "ro" ? apiQuestionsRO : apiQuestionsEN;
+previousQuizzesBtn.addEventListener("click", () => {
+    getPreviousQuizzesInfo();
+    hideElem(playBtnContainer);
+    displayElem(previousQuizzesContainer);
+}
+)
+
+function getPreviousQuizzesInfo() {
+    fetch(`${apiQuizzes}?q=${currentUser.getEmail}`)
+        .then(response =>  response.json() )
+        .then(data => {
+            data.forEach((item) => previousQuizzesArray.push(convertDate(item.quizDate), item.category, item.difficulty, item.score));
+            previousQuizzesArray.forEach((elem) => displayPreviousQuizzesInfo(elem));
+        });
+}
+
+function displayPreviousQuizzesInfo(elem) {
+
+    const previousQuizzesContainer = document.getElementById("previousQuizzesContainer");
+    const previousQuizDataParagraph = document.createElement("p");
+
+    if (typeof elem === "number") {
+        previousQuizDataParagraph.textContent = "Score: ";
+    }
+
+    const showPreviousQuiz = document.createTextNode(elem);
+    previousQuizDataParagraph.append(showPreviousQuiz);
+    previousQuizzesContainer.append(previousQuizDataParagraph);
+    previousQuizDataParagraph.setAttribute("class", "previous-quizzes");
+
+    if (typeof elem === "number") {
+        const horizontalLine = document.createElement("hr");
+        previousQuizDataParagraph.append(horizontalLine);
+    }
+
+
+}
+
+// date is stored in db not in local timezone, but in ISO 8601 and needs to be converted back to 
+// user's local timezone
+function convertDate(date) {
+    const dateFormat = { year: 'numeric', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' };
+    const localDate = new Date(date).toLocaleString(undefined, dateFormat);
+    return localDate;
+
+}
+
 
 // MOBILE VERSION
 

@@ -61,8 +61,8 @@
                             <img src="https://svgshare.com/i/sSs.svg" alt="caret-right-icon"
                                 class="caret-right-icon"></button>
                         <div onmouseleave="hideDropdownMenu(0)" class="nav-btn-style dropdown-container no-display">
-                            <p><button class="nav-btn-style" id="previousQuizzesBtn"> Previous Quizzes</button></p>
-                            <p><button class="nav-btn-style" id="favCategBtn"> My Favourite Categories</button></p>
+                            <p><button class="nav-btn-style" id="previousQuizzesBtn"> Previous quizzes</button></p>
+                            <p><button class="nav-btn-style" id="favCategBtn"> My favourite categories</button></p>
                         </div>
                     </div>
 
@@ -147,9 +147,7 @@
 
             <div id="quizContainer" class="no-display">
 
-                <p id="timeText"><span id="countdownDuration"></span></span> <span id="countdown"></span></p>
-
-                <div id="questionWrapper"></div>
+                <p id="timeText">Time: <span id="countdownDuration"></span></span> <span id="countdown"></span></p>
 
             </div>
 
@@ -160,8 +158,9 @@
                 <!-- future improvement: change the message based on the scored obtained by the user -->
 
                 <p id="resultText"> Congratulations on finishing the quiz!
-                    Your score is <b><span id="showUserScore"></span></b> out of <b>15</b>. Please refresh the page
-                    to start a new game.
+                    Your score is <b><span id="showUserScore"></span></b><b>15</b>. 
+                    <br>
+                    Please refresh the page to start a new game.
                 </p>
 
                 <!-- <p id="resultText"> Congratulations on finishing the quiz! Your score is: </p>

@@ -402,13 +402,12 @@ select {
     color: var(--font-color);
     padding: 1rem;
     margin: 1rem 1rem 1rem 0;
+    overflow: hidden;
+    white-space: nowrap;
+    animation:
+        typing 2s steps(40, end);
+    overflow-wrap: break-word;
 }
-
-/* to be improved for longer questions that spill out the contaienr */
-/* #questionWrapper {
-    
-   
-} */
 
 #quizQuestion {
     overflow: hidden;
@@ -418,16 +417,6 @@ select {
     letter-spacing: 1px;
     animation:
         typing 2s steps(40, end)
-}
-
-/* TO BE IMPROVED IN THE FUTURE AS DIRECTION IS WRONG */
-#questionWrapper+p {
-    overflow: hidden;
-    white-space: nowrap;
-    margin: 0 auto;
-    animation:
-        typing 2s steps(40, end);
-    overflow-wrap: break-word;
 }
 
 @keyframes typing {
@@ -463,6 +452,31 @@ input[type="radio"] {
     padding: 14px;
     color: var(--font-color);
     border: 3px solid var(--font-color);
+}
+
+#previousQuizzesContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 11%;
+    margin: 2rem;
+    padding: 1rem;
+    border: 3px solid var(--font-color);
+    overflow-y: scroll;
+}
+
+#previousQuizzesContainer p:first-child {
+    margin-bottom: 8px;
+    text-align: center;
+    color: var(--font-color);
+}
+
+.previous-quizzes {
+    padding: 1em;
+    color: var(--font-color);
+}
+
+hr {
+    margin-top: 7px;
 }
 
 #accountInfoContainer {
