@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 
-// doesn't work; will use Local Storage for now
+// doesn't work; will use Local Storage for now (to rethink this in the future)
 
 // function setCookie(cname, cvalue, exdays) {
 //     const d = new Date();
@@ -72,6 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
 // LOGIN PAGE
 
 // to fix issue with email being saved in LocalStorage
+// rethink this in terms of composition, not inheritance
 
 class User {
     #username;
@@ -764,7 +765,7 @@ if (playBtn) {
     })
 };
 
-// START QUI
+// START QUIZ
 
 let categoryFromUser = document.getElementById("categoryFromUser");
 let difficultyFromUser = document.getElementById("difficultyFromUser");

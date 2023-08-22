@@ -58,62 +58,6 @@ body {
     margin-bottom: 2rem !important;
 }
 
-
-@media (min-width: 768px) {
-    .gradient-form {
-        height: 100vh !important;
-    }
-
-    .gradient-custom-2 {
-        border-top-right-radius: .3rem;
-        border-bottom-right-radius: .3rem;
-    }
-}
-
-/* DASHBOARD PAGE */
-
-.theme-light {
-    --color-primary: yellowgreen;
-    --color-secondary: floralwhite;
-    --color-accent: yellowgreen;
-    --font-color: black;
-    --background-color: #a2d0444d;
-    --hover-color: #81aa53;
-    --background-brightness: 140%;
-    --gradient-primary: to right, #ADD100 0%, #7B920A 51%, #ADD100 100%;
-    --gradient-secondary: 117deg, rgba(123, 216, 96) 39.2%, rgba(255, 255, 255) 156.2%;
-
-}
-
-.theme-dark {
-    --color-primary: #496925;
-    --color-secondary: #315213;
-    --color-accent: white;
-    --font-color: #cade9f;
-    --background-color: #57783a;
-    --hover-color: #667e4a;
-    --background-brightness: 63%;
-    --gradient-primary: to right, #334011 0%, #718028 51%, #384011 100%;
-    --gradient-secondary: 117deg, rgba(65, 136, 0) 39.2%, rgba(133, 221, 53) 156.2%;
-
-}
-
-.display {
-    /* display: inline-flex; */
-    display: inline;
-}
-
-.no-display {
-    display: none !important;
-}
-
-::selection {
-    background-color: #e98f0b;
-    /* Replace with your desired color */
-    color: white;
-    /* Replace with the text color you want for the selected text */
-}
-
 .gradient-custom-2 {
     /* fallback for old browsers */
     background: #fccb90;
@@ -150,6 +94,63 @@ body {
 
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+}
+
+@media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+
+    .gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+    }
+}
+
+/* DASHBOARD PAGE */
+
+.theme-light {
+    --color-primary: yellowgreen;
+    --color-secondary: floralwhite;
+    --color-accent: yellowgreen;
+    --font-color: black;
+    --background-color: #a2d0444d;
+    --hover-color: #81aa53;
+    --background-brightness: 140%;
+    --gradient-primary: to right, #ADD100 0%, #7B920A 51%, #ADD100 100%;
+    --gradient-secondary: 117deg, rgba(123, 216, 96) 39.2%, rgba(255, 255, 255) 156.2%;
+
+}
+
+/* to do: improve dark theme */
+
+.theme-dark {
+    --color-primary: #496925;
+    --color-secondary: #315213;
+    --color-accent: white;
+    --font-color: #cade9f;
+    --background-color: #57783a;
+    --hover-color: #667e4a;
+    --background-brightness: 63%;
+    --gradient-primary: to right, #334011 0%, #718028 51%, #384011 100%;
+    --gradient-secondary: 117deg, rgba(65, 136, 0) 39.2%, rgba(133, 221, 53) 156.2%;
+
+}
+
+.display {
+    /* display: inline-flex; */
+    display: inline;
+}
+
+.no-display {
+    display: none !important;
+}
+
+::selection {
+    background-color: #e98f0b;
+    /* Replace with your desired color */
+    color: white;
+    /* Replace with the text color you want for the selected text */
 }
 
 #gridContainer {
